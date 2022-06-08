@@ -8,7 +8,7 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 import logo from './dragon-logo.svg';
 
-// import Home from './components/Home/Home'
+import Home from './components/Home/Home'
 import PlayerBios from './components/PlayerBios/PlayerBios';
 import CharacterSheetsYiuLai from './components/CharacterSheets/CharacterSheetsYiuLai'
 import CharacterSheetsAelith from './components/CharacterSheets/CharacterSheetsAelith'
@@ -28,7 +28,11 @@ function App() {
               <img className="logo" src={logo}/>
               DnD by Gaymnight
             </Navbar.Brand>
-            <Nav>        
+            <Nav>      
+
+              <Nav.Link as={Link} to={"/"}>
+                Home
+              </Nav.Link>  
 
               <Nav.Link as={Link} to={"/player-bios"}>
                 Player Bios
@@ -56,7 +60,7 @@ function App() {
 
       <div>
         <Routes>
-          {/* <Route exact path='/' element={<Home/>}> </Route> */}
+          <Route exact path='/' element={<Home/>}> </Route>
           <Route exact path='/player-bios' element={<PlayerBios/>}> </Route>
           <Route exact path='/yiu-lai/character-sheets' element={<CharacterSheetsYiuLai/>}> </Route>
           <Route exact path='/aelith/character-sheets' element={<CharacterSheetsAelith/>}> </Route>
