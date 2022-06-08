@@ -7,7 +7,7 @@ import {
 const SessionSummariesAelith = () => {
 
     return (
-        <div className='SessionSummariesAelith'>
+        <div className='SessionSummaries'>
             <h1>Aelith Session Summaries!</h1> 
             
         </div>

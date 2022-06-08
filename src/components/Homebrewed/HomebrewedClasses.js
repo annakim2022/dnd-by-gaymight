@@ -7,7 +7,7 @@ import {
 const HomebrewedClasses = () => {
 
     return (
-        <div className='HomebrewedClasses'>
+        <div className='Homebrewed'>
             <h1>Homebrewed Classes!</h1>    
 
           

@@ -7,7 +7,7 @@ import {
 const SessionSummariesYiuLai = () => {
 
     return (
-        <div className='SessionSummariesYiuLai'>
+        <div className='SessionSummaries'>
             <h1>Yiu Lai Session Summaries!</h1> 
             
         </div>

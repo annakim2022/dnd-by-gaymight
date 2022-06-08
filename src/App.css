@@ -1,4 +1,24 @@
+.bg-maroon {
+  background-color: maroon;
+}
 
+.logo {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 35px;
+  width: 35px;
+}
+
+.content {
+  margin-top: 60px;
+  padding: 12px;
+  height: 3000px;
+}
+
+
+
+/* 
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +33,9 @@ body {
 .nav-area {
   display: flex;
   align-items: center;
-  /* max-width: 1200px; */
-  /* margin: 0 auto;
-  padding: 0 0px;*/
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0px;
   height: 48px; 
   background-color: beige;
   
@@ -63,10 +83,10 @@ body {
 .menu-items button {
   text-align: left;
   padding: 1rem 1.5rem;
-  /* padding-left: 1rem;
+   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
-  padding-bottom: 1rem; */
+  padding-bottom: 1rem; 
 }
 
 .menu-items a:hover,
@@ -110,4 +130,4 @@ body {
   left: 100%;
   top: -7px;
   margin-top: 5px;
-}
+} */

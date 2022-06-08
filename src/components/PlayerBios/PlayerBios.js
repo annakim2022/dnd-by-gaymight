@@ -4,7 +4,7 @@ import {
     Link
   } from 'react-router-dom'
 
-const PlayerBios = () => {
+function PlayerBios() {
 
     return (
         <div className='PlayerBios'>
