@@ -7,7 +7,7 @@ import {
 const CharacterSheetsAelith = () => {
 
     return (
-        <div className='CharacterSheetsAelith'>
+        <div className='CharacterSheets'>
             <h1>Aelith Character Sheets!</h1>       
  
         </div>

@@ -1,11 +1,10 @@
 import React from 'react'
 
+import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-
 import logo from './dragon-logo.svg';
 
 import Home from './components/Home/Home'
@@ -16,28 +15,27 @@ import SessionSummariesYiuLai from './components/SessionSummaries/SessionSummari
 import SessionSummariesAelith from './components/SessionSummaries/SessionSummariesAelith'
 import HomebrewedRaces from './components/Homebrewed/HomebrewedRaces'
 import HomebrewedClasses from './components/Homebrewed/HomebrewedClasses'
-// import Navbar from './components/Navbar';
-
 
 function App() {
   return (
   <Router>
-      <div className='nav-area'>
-          <Navbar bg="maroon" variant="dark" fixed="top">
-            <Navbar.Brand> 
+      <div className='nav-area'>  
+        <Navbar collapseOnSelect expand="md" bg="maroon" variant="dark" fixed="top">
+          
+          <Container fluid>
+          <Navbar.Brand className="brand"> 
               <img className="logo" src={logo}/>
-              DnD by Gaymnight
-            </Navbar.Brand>
+              D&D by Gaymnight
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>      
-
               <Nav.Link as={Link} to={"/"}>
                 Home
               </Nav.Link>  
-
               <Nav.Link as={Link} to={"/player-bios"}>
                 Player Bios
-              </Nav.Link>
-        
+              </Nav.Link>      
               <NavDropdown title="Yiu Lai">
                 <NavDropdown.Item href="/yiu-lai/character-sheets">Character Sheets</NavDropdown.Item>
                 <NavDropdown.Item href="/yiu-lai/session-summaries">Session Summaries</NavDropdown.Item>
@@ -55,7 +53,9 @@ function App() {
                 <NavDropdown.Item href="/homebrewed/classes">Classes</NavDropdown.Item>    
               </NavDropdown>
             </Nav>
-          </Navbar>
+          </Navbar.Collapse>
+          </Container>
+        </Navbar>
       </div>
 
       <div>
