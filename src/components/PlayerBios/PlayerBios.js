@@ -3,9 +3,11 @@ import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
-import './PlayerBios.css';
+import ListGroup from 'react-bootstrap/ListGroup';
+import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import img from './placeholder-image.png';
-import { CardGroup, ListGroup, ListGroupItem } from 'react-bootstrap';
+import './PlayerBios.css';
+
 
 function PlayerBios() {
 
@@ -122,8 +124,6 @@ function PlayerBios() {
                     </Col> 
                 </Row>
             </Container>   
-
-
         </div>
     )
 }

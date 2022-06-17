@@ -13,8 +13,10 @@ import CharacterSheetsYiuLai from './components/CharacterSheets/CharacterSheetsY
 import CharacterSheetsAelith from './components/CharacterSheets/CharacterSheetsAelith'
 import SessionSummariesYiuLai from './components/SessionSummaries/SessionSummariesYiuLai'
 import SessionSummariesAelith from './components/SessionSummaries/SessionSummariesAelith'
-import HomebrewedRaces from './components/Homebrewed/HomebrewedRaces'
-import HomebrewedClasses from './components/Homebrewed/HomebrewedClasses'
+import HomebrewedRaces from './components/Homebrewed/Races/HomebrewedRaces'
+import HomebrewedClasses from './components/Homebrewed/Classes/HomebrewedClasses'
+
+import Arsenalist from './components/Homebrewed/Classes/Arsenalist'
 
 function App() {
   return (
@@ -68,6 +70,7 @@ function App() {
           <Route exact path='/aelith/session-summaries' element={<SessionSummariesAelith/>}> </Route>
           <Route exact path='/homebrewed/races' element={<HomebrewedRaces/>}> </Route>
           <Route exact path='/homebrewed/classes' element={<HomebrewedClasses/>}> </Route>
+            <Route exact path='/homebrewed/classes/arsenalist' element={<Arsenalist/>}> </Route>
         </Routes>
       </div>
     </Router>

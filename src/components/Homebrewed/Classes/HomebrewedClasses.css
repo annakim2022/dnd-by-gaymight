@@ -1,0 +1,48 @@
+
+.HomebrewedClasses {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.class-card{
+    margin-bottom: 30px;
+}
+
+.Arsenalist {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.outer-box{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;  
+}
+
+.class-name{
+    padding-left: 10px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.box {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    height: 5000px;
+    border-radius: 10px;
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
