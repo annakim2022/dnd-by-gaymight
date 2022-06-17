@@ -18,7 +18,7 @@ import HomebrewedClasses from './components/Homebrewed/HomebrewedClasses'
 
 function App() {
   return (
-  <Router>
+    <Router>
       <div className='nav-area'>  
         <Navbar collapseOnSelect expand="md" bg="maroon" variant="dark" fixed="top">
           
