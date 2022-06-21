@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
@@ -18,41 +18,44 @@ import HomebrewedClasses from './components/Homebrewed/Classes/HomebrewedClasses
 
 import Arsenalist from './components/Homebrewed/Classes/Arsenalist'
 
+
 function App() {
+
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <Router>
       <div className='nav-area'>  
-        <Navbar collapseOnSelect expand="md" bg="maroon" variant="dark" fixed="top">
-          
+        <Navbar expanded={expanded} collapseOnSelect expand="md" bg="maroon" variant="dark" fixed="top">
           <Container fluid>
           <Navbar.Brand className="brand"> 
               <img className="logo" src={logo}/>
               D&D by Gaymnight
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>      
-              <Nav.Link as={Link} to={"/"}>
+              <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/"}>
                 Home
               </Nav.Link>  
-              <Nav.Link as={Link} to={"/player-bios"}>
+              <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/player-bios"}>
                 Player Bios
               </Nav.Link>      
               <NavDropdown title="Yiu Lai">
-                <NavDropdown.Item href="/yiu-lai/character-sheets">Character Sheets</NavDropdown.Item>
-                <NavDropdown.Item href="/yiu-lai/session-summaries">Session Summaries</NavDropdown.Item>
-                <NavDropdown.Item href="/yiu-lai/NPCs">NPCs</NavDropdown.Item>
-                <NavDropdown.Item href="/yiu-lai/random-lore">Random Lore</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-character-sheets"}>Character Sheets</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-session-summaries"}>Session Summaries</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-NPCs"}>NPCs</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-random-lore"}>Random Lore</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Aelith">
-                <NavDropdown.Item href="/yiu-lai/character-sheets">Character Sheets</NavDropdown.Item>
-                <NavDropdown.Item href="/aelith/session-summaries">Session Summaries</NavDropdown.Item>
-                <NavDropdown.Item href="/aelith/NPCs">NPCs</NavDropdown.Item>
-                <NavDropdown.Item href="/aelith/random-lore">Random Lore</NavDropdown.Item>      
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-character-sheets"}>Character Sheets</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-session-summaries"}>Session Summaries</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-NPCs"}>NPCs</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-random-lore"}>Random Lore</NavDropdown.Item>      
               </NavDropdown>
               <NavDropdown title="Homebrewed">
-                <NavDropdown.Item href="/homebrewed/races">Races</NavDropdown.Item>
-                <NavDropdown.Item href="/homebrewed/classes">Classes</NavDropdown.Item>    
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/homebrewed-races"}>Races</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/homebrewed-classes"}>Classes</NavDropdown.Item>    
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
@@ -64,13 +67,13 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>}> </Route>
           <Route exact path='/player-bios' element={<PlayerBios/>}> </Route>
-          <Route exact path='/yiu-lai/character-sheets' element={<CharacterSheetsYiuLai/>}> </Route>
-          <Route exact path='/aelith/character-sheets' element={<CharacterSheetsAelith/>}> </Route>
-          <Route exact path='/yiu-lai/session-summaries' element={<SessionSummariesYiuLai/>}> </Route>
-          <Route exact path='/aelith/session-summaries' element={<SessionSummariesAelith/>}> </Route>
-          <Route exact path='/homebrewed/races' element={<HomebrewedRaces/>}> </Route>
-          <Route exact path='/homebrewed/classes' element={<HomebrewedClasses/>}> </Route>
-            <Route exact path='/homebrewed/classes/arsenalist' element={<Arsenalist/>}> </Route>
+          <Route exact path='/yiu-lai-character-sheets' element={<CharacterSheetsYiuLai/>}> </Route>
+          <Route exact path='/aelith-character-sheets' element={<CharacterSheetsAelith/>}> </Route>
+          <Route exact path='/yiu-lai-session-summaries' element={<SessionSummariesYiuLai/>}> </Route>
+          <Route exact path='/aelith-session-summaries' element={<SessionSummariesAelith/>}> </Route>
+          <Route exact path='/homebrewed-races' element={<HomebrewedRaces/>}> </Route>
+          <Route exact path='/homebrewed-classes' element={<HomebrewedClasses/>}> </Route>
+          <Route exact path='/homebrewed-classes/arsenalist' element={<Arsenalist/>}> </Route>
         </Routes>
       </div>
     </Router>

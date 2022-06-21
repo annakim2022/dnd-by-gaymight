@@ -27,10 +27,10 @@ function PlayerBios() {
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith/character-sheets">Aravala Amonodel</Card.Link>
+                            <Card.Link href="/aelith-character-sheets">Aravala Amonodel</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/yiu-lai/character-sheets">Rarri Pebblepocket</Card.Link>
+                            <Card.Link href="/yiu-lai-character-sheets">Rarri Pebblepocket</Card.Link>
                             </ListGroupItem>
                         </ListGroup>                                 
                     </Card> 
@@ -46,13 +46,13 @@ function PlayerBios() {
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith/character-sheets">Shiver</Card.Link>
+                            <Card.Link href="/aelith-character-sheets">Shiver</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/aelith/character-sheets">Malum</Card.Link>
+                            <Card.Link href="/aelith-character-sheets">Malum</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/yiu-lai/character-sheets">Haze</Card.Link>
+                            <Card.Link href="/yiu-lai-character-sheets">Haze</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -68,10 +68,10 @@ function PlayerBios() {
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith/character-sheets">Yenna</Card.Link>
+                            <Card.Link href="/aelith-character-sheets">Yenna</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/aelith/character-sheets">Kepple</Card.Link>
+                            <Card.Link href="/aelith-character-sheets">Kepple</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -87,7 +87,7 @@ function PlayerBios() {
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith/character-sheets">Naomi</Card.Link>
+                            <Card.Link href="/aelith-character-sheets">Naomi</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -103,10 +103,10 @@ function PlayerBios() {
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith/character-sheets">Valista</Card.Link>
+                            <Card.Link href="/aelith-character-sheets">Valista</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/aelith/character-sheets">Ki'zah</Card.Link>
+                            <Card.Link href="/aelith-character-sheets">Ki'zah</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>

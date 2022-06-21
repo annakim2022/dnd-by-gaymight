@@ -12,6 +12,8 @@
 
 .class-card{
     margin-bottom: 30px;
+    /* text-decoration: none;
+    color: black; */
 }
 
 .Arsenalist {
@@ -23,7 +25,7 @@
 .outer-box{
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 100px;  
+    margin-top: 100px;
 }
 
 .class-name{
@@ -33,9 +35,9 @@
 }
 
 .box {
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     background-color: white;
     height: 5000px;
     border-radius: 10px;
@@ -46,3 +48,4 @@
     padding-right: 10px;
     padding-top: 20px;
 }
+

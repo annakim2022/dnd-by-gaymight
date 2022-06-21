@@ -3,10 +3,7 @@ import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
-import ListGroup from 'react-bootstrap/ListGroup';
-import ListGroupItem from 'react-bootstrap/ListGroupItem';
-import Accordion from 'react-bootstrap/Accordion';
-import AccordionBody from 'react-bootstrap/esm/AccordionBody';
+import { Link } from "react-router-dom"
 
 import img from './placeholder-image.png';
 import './HomebrewedClasses.css';
@@ -20,9 +17,9 @@ const HomebrewedClasses = () => {
             <Row xs={1} sm={2} lg={3}>
                 <Col>
                     <Card className='class-card'>
-                        <a href='/homebrewed/classes/arsenalist'>
-                        <Card.Img variant="top" src={img}/>
-                        </a>
+                        <Card.Body as={Link} to={'/homebrewed-classes/arsenalist'}>
+                            <Card.Img variant="top" src={img} />
+                        </Card.Body>
                         <Card.Body>
                             <Card.Title>Arsenalist</Card.Title>
                             <Card.Text>
@@ -33,9 +30,9 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <a href='/'>
-                        <Card.Img variant="top" src={img}/>
-                        </a>
+                        <Card.Body as={Link} to={'/homebrewed-classes/cultivator'}>
+                            <Card.Img variant="top" src={img} />
+                        </Card.Body>
                         <Card.Body>
                             <Card.Title>Cultivator</Card.Title>
                             <Card.Text>
@@ -46,9 +43,9 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <a href='/'>
-                        <Card.Img variant="top" src={img}/>
-                        </a>
+                        <Card.Body as={Link} to={'/homebrewed-classes/fortress'}>
+                            <Card.Img variant="top" src={img} />
+                        </Card.Body>
                         <Card.Body>
                             <Card.Title>Fortress</Card.Title>
                             <Card.Text>
@@ -59,9 +56,9 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <a href='/'>
-                        <Card.Img variant="top" src={img}/>
-                        </a>
+                        <Card.Body as={Link} to={'/homebrewed-classes/kaleido'}>
+                            <Card.Img variant="top" src={img} />
+                        </Card.Body>
                         <Card.Body>
                             <Card.Title>Kaleido</Card.Title>
                             <Card.Text>
@@ -72,9 +69,9 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <a href='/'>
-                        <Card.Img variant="top" src={img}/>
-                        </a>
+                        <Card.Body as={Link} to={'/homebrewed-classes/mahou'}>
+                            <Card.Img variant="top" src={img} />
+                        </Card.Body>
                         <Card.Body>
                             <Card.Title>Mahou</Card.Title>
                             <Card.Text>
@@ -85,9 +82,9 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <a href='/'>
-                        <Card.Img variant="top" src={img}/>
-                        </a>
+                        <Card.Body as={Link} to={'/homebrewed-classes/prophet'}>
+                            <Card.Img variant="top" src={img} />
+                        </Card.Body>
                         <Card.Body>
                             <Card.Title>Prophet</Card.Title>
                             <Card.Text>

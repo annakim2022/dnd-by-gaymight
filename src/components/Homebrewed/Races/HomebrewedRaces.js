@@ -3,9 +3,6 @@ import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
-import ListGroup from 'react-bootstrap/ListGroup';
-import ListGroupItem from 'react-bootstrap/ListGroupItem';
-
 
 import img from './placeholder-image.png';
 import './HomebrewedRaces.css';
