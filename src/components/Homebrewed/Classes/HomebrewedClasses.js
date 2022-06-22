@@ -17,7 +17,7 @@ const HomebrewedClasses = () => {
             <Row xs={1} sm={2} lg={3}>
                 <Col>
                     <Card className='class-card'>
-                        <Card.Body as={Link} to={'/homebrewed-classes/arsenalist'}>
+                        <Card.Body as={Link} to={'/arsenalist'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -30,7 +30,7 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <Card.Body as={Link} to={'/homebrewed-classes/cultivator'}>
+                        <Card.Body as={Link} to={'/cultivator'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -43,7 +43,7 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <Card.Body as={Link} to={'/homebrewed-classes/fortress'}>
+                        <Card.Body as={Link} to={'/fortress'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -56,7 +56,7 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <Card.Body as={Link} to={'/homebrewed-classes/kaleido'}>
+                        <Card.Body as={Link} to={'/kaleido'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -69,7 +69,7 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <Card.Body as={Link} to={'/homebrewed-classes/mahou'}>
+                        <Card.Body as={Link} to={'/mahou'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -82,7 +82,7 @@ const HomebrewedClasses = () => {
                 </Col> 
                 <Col>
                     <Card className='class-card'>
-                        <Card.Body as={Link} to={'/homebrewed-classes/prophet'}>
+                        <Card.Body as={Link} to={'/prophet'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>

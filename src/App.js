@@ -73,7 +73,7 @@ function App() {
           <Route exact path='/aelith-session-summaries' element={<SessionSummariesAelith/>}> </Route>
           <Route exact path='/homebrewed-races' element={<HomebrewedRaces/>}> </Route>
           <Route exact path='/homebrewed-classes' element={<HomebrewedClasses/>}> </Route>
-          <Route exact path='/homebrewed-classes/arsenalist' element={<Arsenalist/>}> </Route>
+          <Route exact path='/arsenalist' element={<Arsenalist/>}> </Route>
         </Routes>
       </div>
     </Router>

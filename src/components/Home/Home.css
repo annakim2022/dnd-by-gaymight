@@ -1,3 +1,8 @@
 .Home {
     margin-top: 70px;
 }
+
+.carousel-inner img {
+    display: flex;
+    margin: auto;
+  }
