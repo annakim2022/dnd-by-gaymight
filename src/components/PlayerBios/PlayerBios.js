@@ -27,10 +27,10 @@ function PlayerBios() {
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith-character-sheets">Aravala Amonodel</Card.Link>
+                            <Card.Link href="/aravala-amonodel">Aravala Amonodel</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/yiu-lai-character-sheets">Rarri Pebblepocket</Card.Link>
+                            <Card.Link href="/rarri-pebblepocket">Rarri Pebblepocket</Card.Link>
                             </ListGroupItem>
                         </ListGroup>                                 
                     </Card> 

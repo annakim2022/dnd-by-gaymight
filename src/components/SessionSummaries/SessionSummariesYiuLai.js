@@ -8,7 +8,7 @@ const SessionSummariesYiuLai = () => {
 
     return (
         <div className='SessionSummaries'>
-            <h1>Yiu Lai Session Summaries!</h1> 
+            <h1 className='title'>Yiu Lai Session Summaries!</h1> 
             
         </div>
     )

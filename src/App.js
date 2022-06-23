@@ -9,8 +9,8 @@ import logo from './dragon-logo.svg';
 
 import Home from './components/Home/Home'
 import PlayerBios from './components/PlayerBios/PlayerBios';
-import CharacterSheetsYiuLai from './components/CharacterSheets/CharacterSheetsYiuLai'
-import CharacterSheetsAelith from './components/CharacterSheets/CharacterSheetsAelith'
+import CharacterSheetsYiuLai from './components/CharacterSheets/YiuLaiCharacterSheets'
+import CharacterSheetsAelith from './components/CharacterSheets/AelithCharacterSheets'
 import SessionSummariesYiuLai from './components/SessionSummaries/SessionSummariesYiuLai'
 import SessionSummariesAelith from './components/SessionSummaries/SessionSummariesAelith'
 import HomebrewedRaces from './components/Homebrewed/Races/HomebrewedRaces'
@@ -18,6 +18,8 @@ import HomebrewedClasses from './components/Homebrewed/Classes/HomebrewedClasses
 
 import Arsenalist from './components/Homebrewed/Classes/Arsenalist'
 
+import Aravala from './components/CharacterSheets/AelithCharacters/Aravala/Aravala';
+import Rarri from './components/CharacterSheets/YiuLaiCharacters/Rarri/Rarri';
 
 function App() {
 
@@ -74,6 +76,8 @@ function App() {
           <Route exact path='/homebrewed-races' element={<HomebrewedRaces/>}> </Route>
           <Route exact path='/homebrewed-classes' element={<HomebrewedClasses/>}> </Route>
           <Route exact path='/arsenalist' element={<Arsenalist/>}> </Route>
+          <Route exact path='/aravala-amonodel' element={<Aravala/>}> </Route>
+          <Route exact path='/rarri-pebblepocket' element={<Rarri/>}> </Route>
         </Routes>
       </div>
     </Router>

@@ -1,14 +1,11 @@
 import React from 'react';
 import './SessionSummaries.css';
-import {
-    Link
-  } from 'react-router-dom'
 
 const SessionSummariesAelith = () => {
 
     return (
         <div className='SessionSummaries'>
-            <h1>Aelith Session Summaries!</h1> 
+            <h1 className='title'>Aelith Session Summaries!</h1> 
             
         </div>
     )
