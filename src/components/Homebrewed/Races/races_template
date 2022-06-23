@@ -1,0 +1,24 @@
+import React from 'react';
+import './Animated.css';
+
+const Animated = () => {
+
+    return (
+        <div className='Arsenalist'> 
+            <div className='outer-box'>
+                <h2 className='class-name'>Arsenalist</h2>
+                <div className='box'> 
+                    <Tabs defaultActiveKey='features'>
+                        <Tab eventKey="features" title="Class Features">
+                            <div className='content'>
+                            <h4>Hit Points</h4>
+                            </div>
+                        </Tab>
+                    </Tabs>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Animated;

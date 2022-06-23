@@ -22,7 +22,7 @@ const CharacterSheetsYiuLai = () => {
                     <Card.Body>
                         <Card.Title>Haze</Card.Title>
                         <Card.Text>
-                            some stuff about haze
+                            goes to home page
                         </Card.Text>
                     </Card.Body>                             
                 </Card> 
@@ -35,7 +35,7 @@ const CharacterSheetsYiuLai = () => {
                     <Card.Body>
                         <Card.Title>Ki'zah</Card.Title>
                         <Card.Text>
-                            some stuff about ki'zah
+                            goes to home page
                         </Card.Text>
                     </Card.Body>   
                 </Card>
@@ -48,7 +48,7 @@ const CharacterSheetsYiuLai = () => {
                     <Card.Body>
                         <Card.Title>Kepple</Card.Title>
                         <Card.Text>
-                            some stuff about kepple
+                            goes to home page
                         </Card.Text>
                     </Card.Body>   
                 </Card>
@@ -61,7 +61,7 @@ const CharacterSheetsYiuLai = () => {
                     <Card.Body>
                         <Card.Title>Rarri Pebblepocket</Card.Title>
                         <Card.Text>
-                            some stuff about rarri
+                            CLICK IMAGE
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -72,9 +72,9 @@ const CharacterSheetsYiuLai = () => {
                         <Card.Img variant="top" src={img} />
                     </Card.Body>
                     <Card.Body>
-                        <Card.Title>Valista</Card.Title>
+                        <Card.Title>Ssashira</Card.Title>
                         <Card.Text>
-                            some stuff about valista
+                            goes to home page
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -85,9 +85,9 @@ const CharacterSheetsYiuLai = () => {
                         <Card.Img variant="top" src={img} />
                     </Card.Body>
                     <Card.Body>
-                        <Card.Title>Yenna</Card.Title>
+                        <Card.Title>Viðolfnir</Card.Title>
                         <Card.Text>
-                            some stuff about yenna
+                            goes to home page
                         </Card.Text>
                     </Card.Body>
                 </Card> 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './HomebrewedClasses';
+import './Classes.css';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 

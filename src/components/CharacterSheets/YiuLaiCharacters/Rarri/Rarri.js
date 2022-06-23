@@ -15,7 +15,7 @@ const Rarri = () => {
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">
                             <div className='content'>
-                            {/* <Image className='character-art' src={aravala_img}></Image> */}
+                            {/* <Image fluid className='character-art' src={aravala_img}></Image> */}
                             TBD...
                             </div>
                         </Tab>

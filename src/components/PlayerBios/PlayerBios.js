@@ -6,6 +6,9 @@ import Row from "react-bootstrap/Row"
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import img from './placeholder-image.png';
+import anna from './kannabim.jpeg'
+import cal from './cal.jpeg'
+import sophie from './sophie.jpg'
 import './PlayerBios.css';
 
 
@@ -18,7 +21,7 @@ function PlayerBios() {
                 <Row xs={1} sm={2} lg={3}>
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Img variant="top" src={img}/>
+                        <Card.Img className="anna-pp" variant="top" src={anna}/>
                         <Card.Body>
                             <Card.Title>anna</Card.Title>
                             <Card.Text>
@@ -37,11 +40,11 @@ function PlayerBios() {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Img variant="top" src={img}/>
+                        <Card.Img className="cal-pp" variant="top" src={cal}/>
                         <Card.Body>
                             <Card.Title>cal</Card.Title>
                             <Card.Text>
-                                some stuff about cal (links go to home)
+                                links go to home page
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -63,7 +66,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>daniel</Card.Title>
                             <Card.Text>
-                                some stuff about daniel (links go to home)
+                                links go to home page
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -82,7 +85,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>ella</Card.Title>
                             <Card.Text>
-                                some stuff about ella (links go to home)
+                                links go to home page
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -94,11 +97,11 @@ function PlayerBios() {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Img variant="top" src={img}/>
+                        <Card.Img className="sophie-pp"variant="top" src={sophie}/>
                         <Card.Body>
                             <Card.Title>sophie</Card.Title>
                             <Card.Text>
-                                some stuff about sophie (links go to home)
+                                links go to home page
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -117,7 +120,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>yves</Card.Title>
                             <Card.Text>
-                                some stuff about yves
+                                our lovely DM!
                             </Card.Text>
                         </Card.Body>
                     </Card> 

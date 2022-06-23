@@ -22,7 +22,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Aravala Amonodel</Card.Title>
                             <Card.Text>
-                                some stuff about aravala
+                                CLICK IMAGE
                             </Card.Text>
                         </Card.Body>                             
                     </Card> 
@@ -35,7 +35,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Malum</Card.Title>
                             <Card.Text>
-                                some stuff about malum
+                                goes to home page
                             </Card.Text>
                         </Card.Body>   
                     </Card>
@@ -48,7 +48,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Naomi</Card.Title>
                             <Card.Text>
-                                some stuff about Naomi
+                                goes to home page
                             </Card.Text>
                         </Card.Body>   
                     </Card>
@@ -61,7 +61,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Shiver</Card.Title>
                             <Card.Text>
-                                some stuff about shiver
+                                goes to home page
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -74,7 +74,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Valista</Card.Title>
                             <Card.Text>
-                                some stuff about valista
+                                goes to home page
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -87,7 +87,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Yenna</Card.Title>
                             <Card.Text>
-                                some stuff about yenna
+                                goes to home page
                             </Card.Text>
                         </Card.Body>
                     </Card> 

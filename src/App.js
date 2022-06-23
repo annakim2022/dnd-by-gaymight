@@ -18,6 +18,8 @@ import HomebrewedClasses from './components/Homebrewed/Classes/HomebrewedClasses
 
 import Arsenalist from './components/Homebrewed/Classes/Arsenalist'
 
+import Animated from './components/Homebrewed/Races/Animated'
+
 import Aravala from './components/CharacterSheets/AelithCharacters/Aravala/Aravala';
 import Rarri from './components/CharacterSheets/YiuLaiCharacters/Rarri/Rarri';
 
@@ -70,14 +72,26 @@ function App() {
           <Route exact path='/' element={<Home/>}> </Route>
           <Route exact path='/player-bios' element={<PlayerBios/>}> </Route>
           <Route exact path='/yiu-lai-character-sheets' element={<CharacterSheetsYiuLai/>}> </Route>
+              {/* <Route exact path='/haze' element={<TODO/>}> </Route>
+              <Route exact path='/kepple' element={<TODO/>}> </Route>
+              <Route exact path='/kizah' element={<TODO/>}> </Route> */}
+              <Route exact path='/rarri-pebblepocket' element={<Rarri/>}> </Route>
+
           <Route exact path='/aelith-character-sheets' element={<CharacterSheetsAelith/>}> </Route>
+              <Route exact path='/aravala-amonodel' element={<Aravala/>}> </Route>
+              {/* <Route exact path='/malum' element={<TODO/>}> </Route>
+              <Route exact path='/naomi' element={<TODO/>}> </Route>
+              <Route exact path='/shiver' element={<TODO/>}> </Route>
+              <Route exact path='/valista' element={<TODO/>}> </Route>
+              <Route exact path='/yenna' element={<TODO/>}> </Route> */}
+
           <Route exact path='/yiu-lai-session-summaries' element={<SessionSummariesYiuLai/>}> </Route>
           <Route exact path='/aelith-session-summaries' element={<SessionSummariesAelith/>}> </Route>
           <Route exact path='/homebrewed-races' element={<HomebrewedRaces/>}> </Route>
+              <Route exact path='/animated' element={<Animated/>}> </Route>
+
           <Route exact path='/homebrewed-classes' element={<HomebrewedClasses/>}> </Route>
-          <Route exact path='/arsenalist' element={<Arsenalist/>}> </Route>
-          <Route exact path='/aravala-amonodel' element={<Aravala/>}> </Route>
-          <Route exact path='/rarri-pebblepocket' element={<Rarri/>}> </Route>
+              <Route exact path='/arsenalist' element={<Arsenalist/>}> </Route>
         </Routes>
       </div>
     </Router>
