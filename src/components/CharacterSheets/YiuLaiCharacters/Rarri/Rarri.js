@@ -16,12 +16,13 @@ const Rarri = () => {
                         <Tab eventKey="character-art" title="Character Art">
                             <div className='content'>
                             {/* <Image className='character-art' src={aravala_img}></Image> */}
+                            TBD...
                             </div>
                         </Tab>
                         <Tab eventKey="character-sheet" title="Character Sheet">
-                            <div className='content'>
+                            {/* <div className='content'> */}
                             <Image fluid className='character-sheet' src={rarri3}></Image>
-                            </div>
+                            {/* </div> */}
                         </Tab>
                         <Tab eventKey="background" title="Background">
                             <div className='content'>

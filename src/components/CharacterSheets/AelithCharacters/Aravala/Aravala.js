@@ -20,9 +20,9 @@ const Aravala = () => {
                             </div>
                         </Tab>
                         <Tab eventKey="character-sheet" title="Character Sheet">
-                            <div className='content'>
+                            {/* <div className='content'> */}
                             <Image fluid className='character-sheet' src={aravala15}></Image>
-                            </div>
+                            {/* </div> */}
                         </Tab>
                         <Tab eventKey="background" title="Background">
                             <div className='content'>

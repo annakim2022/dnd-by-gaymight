@@ -22,7 +22,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>anna</Card.Title>
                             <Card.Text>
-                                some stuff about anna
+                                THE LINKS ON THIS CARD WORK
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -41,18 +41,18 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>cal</Card.Title>
                             <Card.Text>
-                                some stuff about cal
+                                some stuff about cal (links go to home)
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith-character-sheets">Shiver</Card.Link>
+                            <Card.Link href="/">Shiver</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/aelith-character-sheets">Malum</Card.Link>
+                            <Card.Link href="/">Malum</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/yiu-lai-character-sheets">Haze</Card.Link>
+                            <Card.Link href="/">Haze</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -63,15 +63,15 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>daniel</Card.Title>
                             <Card.Text>
-                                some stuff about daniel
+                                some stuff about daniel (links go to home)
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith-character-sheets">Yenna</Card.Link>
+                            <Card.Link href="/">Yenna</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/aelith-character-sheets">Kepple</Card.Link>
+                            <Card.Link href="/">Kepple</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -82,12 +82,12 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>ella</Card.Title>
                             <Card.Text>
-                                some stuff about ella
+                                some stuff about ella (links go to home)
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith-character-sheets">Naomi</Card.Link>
+                            <Card.Link href="/">Naomi</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -98,15 +98,15 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>sophie</Card.Title>
                             <Card.Text>
-                                some stuff about sophie
+                                some stuff about sophie (links go to home)
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/aelith-character-sheets">Valista</Card.Link>
+                            <Card.Link href="/">Valista</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/aelith-character-sheets">Ki'zah</Card.Link>
+                            <Card.Link href="/">Ki'zah</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>

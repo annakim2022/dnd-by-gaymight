@@ -22,7 +22,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Animated</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>                              
                         </Card> 
@@ -35,7 +35,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Bakeneko</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -48,7 +48,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Cerpicae</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>    
                         </Card>
@@ -61,7 +61,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Descendants of the U'o</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>    
                         </Card>
@@ -74,7 +74,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Doidentan</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body> 
                         </Card>
@@ -87,7 +87,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Dullahan</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -100,7 +100,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Dvati</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -113,7 +113,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Fabric Warforged</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -126,7 +126,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Frijian</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -139,7 +139,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Gorgon</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -152,7 +152,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Half-Gorian</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -165,7 +165,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Mobythrian</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -178,7 +178,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Mujina</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -191,7 +191,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Pellucian</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -204,7 +204,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Progenerati</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -217,7 +217,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Solari</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -230,7 +230,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Swarm of the Many</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -243,7 +243,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Vampire</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -256,7 +256,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Vicari</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
@@ -269,7 +269,7 @@ const HomebrewedRaces = () => {
                             <Card.Body>
                                 <Card.Title>Yumerrier</Card.Title>
                                 <Card.Text>
-                                    blurb
+                                    goes to home page
                                 </Card.Text>
                             </Card.Body>
                         </Card> 

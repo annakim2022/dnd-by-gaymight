@@ -23,7 +23,7 @@ const HomebrewedClasses = () => {
                         <Card.Body>
                             <Card.Title>Arsenalist</Card.Title>
                             <Card.Text>
-                                blurb
+                                CLICK IMAGE
                             </Card.Text>
                         </Card.Body>                              
                     </Card> 
@@ -36,7 +36,7 @@ const HomebrewedClasses = () => {
                         <Card.Body>
                             <Card.Title>Cultivator</Card.Title>
                             <Card.Text>
-                                blurb
+                                goes to an empty page
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -49,7 +49,7 @@ const HomebrewedClasses = () => {
                         <Card.Body>
                             <Card.Title>Fortress</Card.Title>
                             <Card.Text>
-                                blurb
+                                goes to an empty page
                             </Card.Text>
                         </Card.Body>    
                     </Card>
@@ -62,7 +62,7 @@ const HomebrewedClasses = () => {
                         <Card.Body>
                             <Card.Title>Kaleido</Card.Title>
                             <Card.Text>
-                                blurb
+                                goes to an empty page
                             </Card.Text>
                         </Card.Body>    
                     </Card>
@@ -75,7 +75,7 @@ const HomebrewedClasses = () => {
                         <Card.Body>
                             <Card.Title>Mahou</Card.Title>
                             <Card.Text>
-                                blurb
+                                goes to an empty page
                             </Card.Text>
                         </Card.Body> 
                     </Card>
@@ -88,7 +88,7 @@ const HomebrewedClasses = () => {
                         <Card.Body>
                             <Card.Title>Prophet</Card.Title>
                             <Card.Text>
-                                blurb
+                                goes to an empty page
                             </Card.Text>
                         </Card.Body>
                     </Card> 
