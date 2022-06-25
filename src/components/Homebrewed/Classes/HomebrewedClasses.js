@@ -15,7 +15,7 @@ const HomebrewedClasses = () => {
         <h1 className='title'>Homebrewed Classes!</h1>   
          <Container fluid>
             <Row xs={1} sm={2} lg={3}>
-                <Col>
+                {/* <Col>
                     <Card className='class-card'>
                         <Card.Body as={Link} to={'/arsenalist'}>
                             <Card.Img variant="top" src={img} />
@@ -53,7 +53,7 @@ const HomebrewedClasses = () => {
                             </Card.Text>
                         </Card.Body>    
                     </Card>
-                </Col> 
+                </Col>  */}
                 <Col>
                     <Card className='class-card'>
                         <Card.Body as={Link} to={'/kaleido'}>

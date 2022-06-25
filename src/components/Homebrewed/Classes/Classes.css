@@ -1,14 +1,7 @@
-
-.Arsenalist {
+.Kaleido {
     margin-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.outer-box{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
 }
 
 .class-name{
@@ -17,17 +10,26 @@
     text-decoration: underline;
 }
 
-.box {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    background-color: white;
-    border-radius: 10px;
+.sm-table {
+    width: 15rem;
 }
 
-.content {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
+.sm-md-table{
+    width: 20rem
+}
+
+.md-table{
+    width: 55rem;
+}
+
+.md-lg-table{
+    width: 60rem;
+}
+
+.thead{
+    background-color: rgba(128, 0, 0, 0.125);
+}
+
+.right{
+    text-align: right;
 }

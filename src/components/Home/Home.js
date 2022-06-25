@@ -18,8 +18,7 @@ const Home = () => {
                     />
                     <Carousel.Caption className='announcements'>
                     <h3>Hello Friends!</h3>
-                    <p><b>Check out the Hombrewed: Races: Animated card! It doesn't lead back here anymore :) Also, if you haven't already, take a 
-                        look at the Homebrewed: Classes: Arsenalist page - it's one of the few that are complete.</b></p>
+                    <p><b></b></p>
                     <p>Reminder: please don't share this website with anyone. idk how servers really work yet and don't 
                         know how many ppl can open this without crashing it lmao.</p>
                     <h6>p.s. If you're here 'cause you clicked a link that should've taken you somewhere else, that link prob doesn't work yet oop.</h6>

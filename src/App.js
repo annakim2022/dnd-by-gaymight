@@ -16,7 +16,7 @@ import SessionSummariesAelith from './components/SessionSummaries/SessionSummari
 import HomebrewedRaces from './components/Homebrewed/Races/HomebrewedRaces'
 import HomebrewedClasses from './components/Homebrewed/Classes/HomebrewedClasses'
 
-import Arsenalist from './components/Homebrewed/Classes/Arsenalist'
+import Kaleido from './components/Homebrewed/Classes/Kaleido'
 
 import Animated from './components/Homebrewed/Races/Animated'
 
@@ -91,7 +91,7 @@ function App() {
               <Route exact path='/animated' element={<Animated/>}> </Route>
 
           <Route exact path='/homebrewed-classes' element={<HomebrewedClasses/>}> </Route>
-              <Route exact path='/arsenalist' element={<Arsenalist/>}> </Route>
+              <Route exact path='/kaleido' element={<Kaleido/>}> </Route>
         </Routes>
       </div>
     </Router>

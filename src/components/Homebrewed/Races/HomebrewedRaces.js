@@ -14,7 +14,7 @@ const HomebrewedRaces = () => {
             <h1 className='title'>Homebrewed Races!</h1> 
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
-                    <Col>
+                    {/* <Col>
                         <Card className='race-card'>
                         <Card.Body as={Link} to={'/animated'}>
                             <Card.Img variant="top" src={img} />
@@ -117,7 +117,7 @@ const HomebrewedRaces = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
-                    </Col> 
+                    </Col>  */}
                     <Col>
                         <Card className='race-card'>
                             <Card.Body as={Link} to={'/'}>
@@ -131,7 +131,7 @@ const HomebrewedRaces = () => {
                             </Card.Body>
                         </Card> 
                     </Col> 
-                    <Col>
+                    {/* <Col>
                         <Card className='race-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
@@ -143,7 +143,7 @@ const HomebrewedRaces = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
-                    </Col> 
+                    </Col>  */}
                     <Col>
                         <Card className='race-card'>
                             <Card.Body as={Link} to={'/'}>
@@ -183,7 +183,7 @@ const HomebrewedRaces = () => {
                             </Card.Body>
                         </Card> 
                     </Col> 
-                    <Col>
+                    {/* <Col>
                         <Card className='race-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
@@ -273,7 +273,7 @@ const HomebrewedRaces = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card> 
-                    </Col> 
+                    </Col>  */}
                 </Row>
             </Container>     
         </div>

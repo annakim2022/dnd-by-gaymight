@@ -1,41 +1,8 @@
-.title{
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-
 .Rarri{
     margin-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
 }
-
-.outer-box{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-}
-
-.class-name{
-    padding-left: 10px;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.box {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.content {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-}
-
 .character-sheet {
     /* rem = n*16 px */
     /* border: 1px solid rgba(85, 85, 85, 0.15); */
@@ -48,4 +15,5 @@
     border-radius: 10px;
     width: auto;
     height: 35rem;
+    object-fit: cover;
 }

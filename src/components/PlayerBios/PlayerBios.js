@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
+
 import img from './placeholder-image.png';
 import anna from './kannabim.jpeg'
 import cal from './cal.jpeg'

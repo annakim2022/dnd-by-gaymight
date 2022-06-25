@@ -29,7 +29,6 @@ const Arsenalist = () => {
                                 <b>Skills: </b> Choose two from Athletics, Acrobatics, Stealth, Arcana, History, Religion, Insight, Perception
                             </p>
                             
-                            <p>
                                 <h4>Equipment</h4>
                                 <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
                                 <ul>
@@ -38,7 +37,6 @@ const Arsenalist = () => {
                                     <li>smith’s tools</li>
                                     <li>(a) an explorer’s pack or (b) a dungeoneer’s pack</li>
                                 </ul>
-                            </p>
 
                             <h3>Activated Arsenal</h3>
                             <p>Beginning at 1st Level, you have harnessed the ability to manipulate blades to levitate around and fight alongside you. You 

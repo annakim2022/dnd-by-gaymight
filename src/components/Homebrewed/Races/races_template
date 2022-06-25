@@ -1,5 +1,6 @@
 import React from 'react';
-import './Animated.css';
+import Tabs from 'react-bootstrap/Tabs'
+import Tab from 'react-bootstrap/Tab'
 
 const Animated = () => {
 
@@ -7,7 +8,7 @@ const Animated = () => {
         <div className='Arsenalist'> 
             <div className='outer-box'>
                 <h2 className='class-name'>Arsenalist</h2>
-                <div className='box'> 
+                <div className='class-box'> 
                     <Tabs defaultActiveKey='features'>
                         <Tab eventKey="features" title="Class Features">
                             <div className='content'>

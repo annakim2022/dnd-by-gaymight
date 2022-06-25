@@ -4,6 +4,7 @@ import Tab from 'react-bootstrap/Tab'
 import Image from 'react-bootstrap/Image'
 import './Rarri.css';
 import rarri3 from './rarri-stats-3.jpg'
+import rarri_img from './rarri-img.jpg'
 
 const Rarri = () => {
 
@@ -15,8 +16,7 @@ const Rarri = () => {
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">
                             <div className='content'>
-                            {/* <Image fluid className='character-art' src={aravala_img}></Image> */}
-                            TBD...
+                            <Image fluid className='character-art' src={rarri_img}></Image>
                             </div>
                         </Tab>
                         <Tab eventKey="character-sheet" title="Character Sheet">
