@@ -16,7 +16,7 @@ const CharacterSheetsYiuLai = () => {
             <Row xs={1} sm={2} lg={3}>
                 <Col>
                 <Card className='bio-card'>
-                    <Card.Body as={Link} to={'/aravala-amonodel'}>
+                    <Card.Body as={Link} to={'/haze'}>
                         <Card.Img variant="top" src={img} />
                     </Card.Body>
                     <Card.Body>

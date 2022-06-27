@@ -10,6 +10,9 @@ import img from './placeholder-image.png';
 import anna from './kannabim.jpeg'
 import cal from './cal.jpeg'
 import sophie from './sophie.jpg'
+import daniel from './daniel-img.png'
+import yves from  './yves-img.png'
+import ella from './ella-img.png'
 import './PlayerBios.css';
 
 
@@ -53,17 +56,17 @@ function PlayerBios() {
                             <Card.Link href="/">Shiver</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/">Malum</Card.Link>
+                            <Card.Link href="/malum">Malum</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/">Haze</Card.Link>
+                            <Card.Link href="/haze">Haze</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Img variant="top" src={img}/>
+                        <Card.Img className='daniel-pp' variant="top" src={daniel}/>
                         <Card.Body>
                             <Card.Title>daniel</Card.Title>
                             <Card.Text>
@@ -82,7 +85,7 @@ function PlayerBios() {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Img variant="top" src={img}/>
+                        <Card.Img className='ella-pp' variant="top" src={ella}/>
                         <Card.Body>
                             <Card.Title>ella</Card.Title>
                             <Card.Text>
@@ -98,7 +101,7 @@ function PlayerBios() {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Img className="sophie-pp"variant="top" src={sophie}/>
+                        <Card.Img className="sophie-pp" variant="top" src={sophie}/>
                         <Card.Body>
                             <Card.Title>sophie</Card.Title>
                             <Card.Text>
@@ -117,7 +120,7 @@ function PlayerBios() {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Img variant="top" src={img}/>
+                        <Card.Img className='yves-pp' variant="top" src={yves}/>
                         <Card.Body>
                             <Card.Title>yves</Card.Title>
                             <Card.Text>

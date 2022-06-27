@@ -30,3 +30,21 @@
     object-fit: cover;
     object-position: top;
 }
+
+.ella-pp{
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px -110px;
+}
+
+.daniel-pp{
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px -140px;
+}
+
+.yves-pp{
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px -90px;
+}

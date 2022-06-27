@@ -33,12 +33,14 @@ const Rarri = () => {
                                 around town that I could use to build little toys for myself and my siblings. I’ve enjoyed this free lifestyle and have 
                                 gotten into all sorts of trouble with my little inventions that have mostly been used to prank my family, much to their 
                                 dismay.</p>
+                                
                             <p>When I was about 8 years old, a traveling half-elf artificer visited our small town with many strange machines that I 
                                 couldn’t resist investigating. I snuck into her wares when she wasn’t looking and accidentally blew up one of her creations 
                                 out of curiosity. Instead of getting upset, however, the artificer asked my parents if she could take me in as an 
                                 apprentice. She, too, is a bit eccentric, traveling around her wares unlike most tinkerers who stayed in towns to build 
                                 their businesses. My parents, as much as they would miss me, sent me off happily, knowing that I would be well taken care 
                                 of and free to pursue my interests.</p>
+
                             <p>My mentor, Eriden, taught me the ways of smithing and elvish jewelry making, as well as how to imbue those objects with 
                                 magic over the course of the next 12 years as I traveled with her. Eventually, I became adept enough at both that I 
                                 crafted myself a large metal pet in the shape of a dragon, with rubies for eyes (the rubies were a coming-of-age gift from 
@@ -68,17 +70,18 @@ const Rarri = () => {
                                 and in exchange for my help with his marbles, Kepp adjusts one of the saddles he made for himself and gifts it to me. Eriden 
                                 comes and finds me at the end of the day, and Kepp and I part in high spirits. I’m delighted to have made a friend, since it 
                                 doesn’t happen often with how frequently Eriden and I change locations.</p>
+
                             <h5>Parting with Eriden</h5>
                             <p>On the morning of my 20th birthday, Eriden and I are staying in a bustling town when Eriden informs me that she has nothing 
                                 more to teach me and that I must now venture out on my own if I am to grow as an Artificer. She and I part ways - our 
                                 adventures together end as abruptly as they started almost 12 years ago. Though I am not upset at this turn of events (I’ve 
                                 long since grown accustomed to Eriden’s fickle and often inexplicable ways), I am a bit at a loss for what to do next. Feeling 
                                 terribly lonely during the first few days of traveling without Eriden, I magically infuse a multi-colored gem to create a 
-                                homunculus servant in the form of a tiny faerie dragon that can change into any color I can think of. I name my new companion 
-                                “Razzledazzle” (“Razz” for short). I can get Razz to fly because she’s a lot smaller than Fizz, but Fizz is a little jealous 
-                                of this and nips at her constantly, so she’s taken to hiding in my hair. I travel aimlessly for a while with Razz and Fizz as 
-                                my only companions, selling what I tinker to cover food and travel costs. Just as I begin to contemplate if I should go back 
-                                to my family, I meet our party.</p>
+                                homunculus servant in the form of a tiny faerie dragon that can change colors depending on how I'm feeling that day. I name my 
+                                new companion “Razzledazzle” (“Razz” for short). I can get Razz to fly because she’s a lot smaller than Fizz, but Fizz is a 
+                                little jealous of this, and nips at her constantly, so she’s taken to hiding in my hair. I travel aimlessly for a while with 
+                                Razz and Fizz as my only companions, selling what I tinker to cover food and travel costs. Just as I begin to contemplate if I 
+                                should go back to my family, I meet our party.</p>
                             </div>
                         </Tab>
                     </Tabs>
