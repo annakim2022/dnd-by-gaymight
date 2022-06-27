@@ -42,7 +42,7 @@ const CharacterSheetsYiuLai = () => {
                 </Col> 
                 <Col>
                 <Card className='bio-card'>
-                    <Card.Body as={Link} to={'/aravala-amonodel'}>
+                    <Card.Body as={Link} to={'/'}>
                         <Card.Img variant="top" src={img} />
                     </Card.Body>
                     <Card.Body>
@@ -68,7 +68,7 @@ const CharacterSheetsYiuLai = () => {
                 </Col> 
                 <Col>
                 <Card className='bio-card'>
-                    <Card.Body as={Link} to={'/aravala-amonodel'}>
+                    <Card.Body as={Link} to={'/'}>
                         <Card.Img variant="top" src={img} />
                     </Card.Body>
                     <Card.Body>
@@ -81,7 +81,7 @@ const CharacterSheetsYiuLai = () => {
                 </Col> 
                 <Col>
                 <Card className='bio-card'>
-                    <Card.Body as={Link} to={'/aravala-amonodel'}>
+                    <Card.Body as={Link} to={'/'}>
                         <Card.Img variant="top" src={img} />
                     </Card.Body>
                     <Card.Body>

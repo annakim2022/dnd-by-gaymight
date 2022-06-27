@@ -48,12 +48,12 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>cal</Card.Title>
                             <Card.Text>
-                                links go to home page
+                                links to Malum and Haze work
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/">Shiver</Card.Link>
+                            <Card.Link href="/shiver">Shiver</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
                             <Card.Link href="/malum">Malum</Card.Link>

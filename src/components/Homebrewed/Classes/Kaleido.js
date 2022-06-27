@@ -417,8 +417,9 @@ const Kaleido = () => {
                                     </tr>
                                     <tr className="collapse">
                                         <td colSpan="6">
-                                        <p className='top'>You gain a cantrip. You can choose 1 cantrip that the target has cast no longer than 1 minute ago, or one of the cantrips 
-                                            from the following table. The cantrips available to you depend on the damage types that the target could inflict.</p>
+                                        <p className='top'>You gain a cantrip. You can choose 1 cantrip that the target has cast no longer than 1 minute ago, or one 
+                                            of the cantrips from the following table. The cantrips available to you depend on the damage types that the target could 
+                                            inflict.</p>
                                         
                                         <Table responsive bordered size="sm" className='sm-md-table'>
                                             <thead className='thead'>
@@ -467,8 +468,9 @@ const Kaleido = () => {
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>You briefly manifest a natural weapon. Make a melee weapon attack against a creature within 5 feet, dealing 1d8 damage on 
-                                                a hit. The damage type depends on the Learning Action, and each attack has an additional effect, as indicated below:</p>
+                                            <p className='top'>You briefly manifest a natural weapon. Make a melee weapon attack against a creature within 5 feet, 
+                                                dealing 1d8 damage on a hit. The damage type depends on the Learning Action, and each attack has an additional effect, 
+                                                as indicated below:</p>
                                             <ul>
                                                 <li><b>Bite (piercing) or Claw (slashing):</b> The attack scores a critical hit on a roll of 19 or 20. </li>
                                                 <li><b>Gore (piercing) or Ram (bludgeoning).</b> If you moved 20 feet straight towards the target before casting the 
@@ -487,8 +489,8 @@ const Kaleido = () => {
                                             <td>Enhance Senses</td>
                                             <td>Transmutation</td>
                                             <td>1 Bonus Action</td>
+                                            <td>Self</td>
                                             <td>10 minutes</td>
-                                            <td>N/A</td>
                                             <td>S</td>
                                         </tr>
                                         <tr className="collapse">
@@ -496,8 +498,8 @@ const Kaleido = () => {
                                                 <p className='top'>You enhance your senses for 10 minutes. The effect depends on the Learning Action:</p>
                                                 <ul>
                                                     <li><b>Darkvision:</b> You gain a Darkvision range of 60 feet. </li>
-                                                    <li><b>Keen Smell:</b> You gain advantage on Perception checks that rely on smell. You also gain advantage on survival 
-                                                    checks to track a creature if you have smelled it.</li>
+                                                    <li><b>Keen Smell:</b> You gain advantage on Perception checks that rely on smell. You also gain advantage on 
+                                                    survival checks to track a creature if you have smelled it.</li>
                                                     <li><b>Keen Hearing:</b> You gain advantage on Perception checks that rely on hearing. You can also hear from much 
                                                     farther away.</li>
                                                     <li><b>Keen Sight:</b>You gain advantage on Perception checks that rely on sight. You can also double the effective 
@@ -531,7 +533,7 @@ const Kaleido = () => {
                                             <td>1 Action</td>
                                             <td>15 Feet</td>
                                             <td>Instantaneous</td>
-                                            <td>S, V</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
@@ -567,13 +569,13 @@ const Kaleido = () => {
                                             <td>1 Action</td>
                                             <td>10 Feet</td>
                                             <td>Instantaneous</td>
-                                            <td>S, V</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                                <p className='top'>You briefly manifest a long tail or tentacle-like appendage. Make a weapon attack against a creature within 10 
-                                                    feet. On a hit, you deal 2d8 bludgeoning damage and the target is grappled. Until the grapple ends, the target 
-                                                    is restrained. When the grapple ends, the manifested appendage disappears.</p>
+                                                <p className='top'>You briefly manifest a long tail or tentacle-like appendage. Make a weapon attack against a creature 
+                                                    within 10 feet. On a hit, you deal 2d8 bludgeoning damage and the target is grappled. Until the grapple ends, the 
+                                                    target is restrained. When the grapple ends, the manifested appendage disappears.</p>
                                                 <p><small><b><i>At Higher Levels.&nbsp;</i></b> When you cast this spell using a spell slot of 2nd level or higher, the 
                                                     damage increases by 1d8 for each slot above 1st.</small></p>  
                                                 <i><small>Prerequisite: 1st level; Learning target has a constrict or tentacle attack that can grapple.</small></i>             
@@ -587,13 +589,13 @@ const Kaleido = () => {
                                             <td>1 Action</td>
                                             <td>Self</td>
                                             <td>Instantaneous</td>
-                                            <td>S, V</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
                                                 <p className='top'>For 1 hour, your AC increases by 1 if you are wearing light armor or no armor.</p>
-                                                <p><small><b><i>At Higher Levels.&nbsp;</i></b> When you cast this spell using a spell slot of 3rd level, your AC increases 
-                                                    by 2. When you cast this spell using a spell slot of 5th level, your AC increases by 3.</small></p>  
+                                                <p><small><b><i>At Higher Levels.&nbsp;</i></b> When you cast this spell using a spell slot of 3rd level, your AC 
+                                                    increases by 2. When you cast this spell using a spell slot of 5th level, your AC increases by 3.</small></p>  
                                                 <i><small>Prerequisite: 1st level; Learning target has natural armor.</small></i>
                                             </td>
                                         </tr>
@@ -601,15 +603,17 @@ const Kaleido = () => {
                                     <tbody>
                                         <tr onClick={onClickHandler}>
                                             <td>Spell</td>
-                                            <td>?</td>
-                                            <td>?</td>
-                                            <td>?</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
                                             <td>Instantaneous</td>
-                                            <td>?</td>
+                                            <td>--</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
                                                 <p className='top'>You gain the 1st level spell that the target cast. </p>
+                                                <p><small><b><i>At Higher Levels.&nbsp;</i></b> At the 3rd, 6th, 9th, 12th, 15th, and 18th Kaleido levels, you gain 
+                                                    the 2nd, 3rd, 4th, 5th, 6th, or 7th level spell that the target cast, using the same spell level slot. </small></p>
                                                 <i><small>Prerequisite: 1st level; Learning target cast a spell of 1st level no longer than 1 minute ago.</small></i>                         
                                             </td>
                                         </tr>
@@ -621,16 +625,16 @@ const Kaleido = () => {
                                             <td>1 Action</td>
                                             <td>30 Feet</td>
                                             <td>Instantaneous</td>
-                                            <td>S, V</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                                <p className='top'>You spray an elemental spray in a line that is 30 feet long and 5 feet wide. Each creature in that line 
-                                                    must make a Dexterity saving throw, taking 3d6 damage on a failed save, or half as much on a successful one. The type of 
-                                                    damage is the same that was dealt by the Learning Action. </p>
-                                                <p><b><i>At Higher Levels.&nbsp;</i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage 
-                                                    increases by 1d6 for each slot level above 1st. The length of the line increases to 60 feet if a spell slot above 3rd level is 
-                                                    used. </p>  
+                                                <p className='top'>You spray an elemental spray in a line that is 30 feet long and 5 feet wide. Each creature in that 
+                                                    line must make a Dexterity saving throw, taking 3d6 damage on a failed save, or half as much on a successful one. 
+                                                    The type of damage is the same that was dealt by the Learning Action. </p>
+                                                <p><small><b><i>At Higher Levels.&nbsp;</i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage 
+                                                    increases by 1d6 for each slot level above 1st. The length of the line increases to 60 feet if a spell slot above 
+                                                    3rd level is used. </small></p>  
                                                 <i><small>Prerequisite: 1st level; Learning target has an action that has a line area of effect and deals damage.</small></i>
                                             </td>
                                         </tr>
@@ -642,18 +646,18 @@ const Kaleido = () => {
                                             <td>1 Bonus Action</td>
                                             <td>Self</td>
                                             <td>Instantaneous</td>
-                                            <td>S, V</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
                                             <p className='top'>You gain the attacking style of the Learning target. The result depends on the Learning Action. </p>
                                             <ul>
-                                                <li><b>Charge:</b> If you move at least 20 feet straight toward a target and then hit it with a melee attack during the same turn, 
-                                                the target takes an extra 1d8 damage. If the target is a creature, it must succeed on a Strength saving throw against your spell 
-                                                save DC or be knocked prone.</li>
-                                                <li><b>Pounce:</b> If you move at least 20 feet straight toward a target and then hit it with a melee attack during the same turn, 
-                                                that target must succeed on a Strength saving throw against your spell save DC or be knocked prone. If the target is prone, you can 
-                                                make one additional melee attack against the same target. </li>
+                                                <li><b>Charge:</b> If you move at least 20 feet straight toward a target and then hit it with a melee attack during 
+                                                the same turn, the target takes an extra 1d8 damage. If the target is a creature, it must succeed on a Strength saving 
+                                                throw against your spell save DC or be knocked prone.</li>
+                                                <li><b>Pounce:</b> If you move at least 20 feet straight toward a target and then hit it with a melee attack during 
+                                                the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked prone. If 
+                                                the target is prone, you can make one additional melee attack against the same target. </li>
                                             </ul>
                                             <i><small>Prerequisite: 1st level; Learning target has an attacking style such as Pounce or Charge.</small></i> 
                                             </td>
@@ -666,14 +670,15 @@ const Kaleido = () => {
                                             <td>1 Action</td>
                                             <td>5 Feet</td>
                                             <td>Instantaneous</td>
-                                            <td>S, V</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>You release a blast of positive energy at a target within 5 feet of yourself. This heals the target a number of Hit 
-                                            Points equal to 2d8 + your Intelligence modifier. The caster must wait 1d6 minutes before casting this spell again. </p>
-                                            <p><b><i>At Higher Levels.&nbsp;</i></b> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 
-                                                per spell level.</p>  
+                                            <p className='top'>You release a blast of positive energy at a target within 5 feet of yourself. This heals the target a 
+                                                number of Hit Points equal to 2d8 + your Intelligence modifier. The caster must wait 1d6 minutes before casting this 
+                                                spell again. </p>
+                                            <p><small><b><i>At Higher Levels.&nbsp;</i></b> When you cast this spell using a spell slot of 2nd level or higher, the healing 
+                                                increases by 1d8 per spell level.</small></p>  
                                             <i><small>Prerequisite: 1st level; Learning target has the Healing Touch ability.</small></i>
                                             
                                             </td>
@@ -697,19 +702,149 @@ const Kaleido = () => {
                                     </thead>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Amphibian Soul</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 8 hours</td>
+                                            <td>S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <p><b><i>At Higher Levels.&nbsp;</i></b> </p>  
-                                            <i><small>Prerequisite:</small></i>
-                                            
+                                            <p className='top'>You gain the ability to breathe in air and water for 8 hours.</p>
+                                            <i><small>Prerequisite: 3rd level; Learning target has the Amphibious trait.</small></i>                                           
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Beastial Movement</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 hour</td>
+                                            <td>S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain 30 feet of the Learning target’s learned movement type for 1 hour.</p>
+                                            <i><small>Prerequisite: 3rd level; Learning target has a movement type that is not walking, hovering, or flying.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Change Shape</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 hour</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You reproduce the effect of the Learning Action for up to 1 hour. This can be dispelled as a bonus 
+                                                action. </p>
+                                            <i><small>Prerequisite: 3rd level; Learning target has a Change Shape action.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Levitation</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain the Levitate spell. It can only be cast upon yourself.</p>
+                                            <i><small>Prerequisite: 3rd level; Learning target can hover.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Misty Step</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain the Misty Step spell.</p>
+                                            <i><small>Prerequisite: 3rd level; Learning target can teleport.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Life Sense</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 hour</td>
+                                            <td>S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain the Life Sense ability up to one mile for an hour.</p>
+                                            <i><small>Prerequisite: 3rd level; Learning target has the Life Sense ability.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Natural Advantage</td>
+                                            <td>Transmutation</td>
+                                            <td>Casting Time</td>
+                                            <td>Self</td>
+                                            <td>Up to 8 hours</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain the effect of the Learning Trait for 8 hours.</p>
+                                            <i><small>Prerequisite: Prerequisite: 3rd level; Learning target has a trait that grants it advantage with one or more 
+                                                skills.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Spider Climb</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain the Spider Climb spell. It can only be cast upon yourself.</p>
+                                            <i><small>Prerequisite: 3rd level; Learning target has the ability Spider Climb.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Telepathy</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 hour</td>
+                                            <td>S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>For 1 hour, you can communicate telepathically with any creature within 120 feet of you. You don't 
+                                                need to share a language for the creature to understand your telepathic utterances, but the creature must be able to 
+                                                understand at least one language.</p>
+                                            <i><small>Prerequisite: 3rd level; Learning target has Telepathy.</small></i>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -731,18 +866,154 @@ const Kaleido = () => {
                                     </thead>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Attack</td>
+                                            <td>Evocation or Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td><i>n</i> minutes</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
-                                            
+                                            <p className='top'>You gain access to the Learning Action for a number of minutes equal to your Kaleido level. </p>
+                                            <i><small>Prerequisite: 6th level; Learning target has a special weapon attack, a specific natural attack, or a 
+                                                    specific magic-like attack.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Blindsight</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 hour</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain blindsight of 60 feet for 1 hour. You are blind beyond this radius but are immune to the 
+                                                blinded condition. You can end this effect early at the beginning of any of your turns. </p>
+                                            <i><small>Prerequisite: 6th level; Learning target has blindsight.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Enhance Status</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Bonus Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 hour</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You are able to emulate the abilities of the creature you Learned this from. When you use Learning 
+                                                to acquire this spell, choose the target’s Strength, Dexterity, Constitution, Wisdom, Intelligence, or Charisma. For 
+                                                the duration of the spell, your score in the chosen stat becomes equal to that of the Learning target. This lasts for 
+                                                1 hour.</p>
+                                            <i><small>Prerequisite: 6th level; Learning target has a stat that is higher than your own.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Flight</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain the fly spell. It can only be cast upon yourself. </p>
+                                            <i><small>Prerequisite: 6th level; Learning target has a fly speed.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Inspire Fear</td>
+                                            <td>Illusion or Transmutation*</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 minute*</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>If gained from a Learning Action, you reproduce the effect and the spell is an illusion.</p>
+                                            <p>*If gained from a Learning Trait, you gain that trait for 1 minute, and the spell is a transmutation</p>
+                                            <i><small>Prerequisite: 6th level; Learning target has an action or a trait that can make a creature frightened.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Marvel Scales</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 hour</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>For 1 hour you have advantage on saving throws made against spells and other magical effects.</p>
+                                            <i><small>Prerequisite:  6th level; Learning target has Magic Resistance.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Elemental Scales</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 hour</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>For 1 hour you gain resistance to the corresponding damage type.</p>
+                                            <i><small>Prerequisite: 6th level; Learning target has resistance to acid, cold, lightning, fire, or thunder damage.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Slow</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>?</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>When you cast this spell, you reproduce the effect of the Learning Action.</p>
+                                            <i><small>Prerequisite: 6th level; Learning target has an Action that halves a creature's movement.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Vampire's Bite</td>
+                                            <td>Necromancy</td>
+                                            <td>1 Action</td>
+                                            <td>5 feet</td>
+                                            <td>Instantaneous</td>
+                                            <td>V, S</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>Make a melee weapon attack against a creature within 5 feet. On a hit, the target takes 1d6 piercing 
+                                                damage. In addition, the target takes an additional 3d6 necrotic damage and you regain the same amount of Hit Points.</p>
+                                            <p><small><b><i>At Higher Levels.&nbsp;</i></b> When you cast this spell using a spell slot of 4th level or higher, the n
+                                                ecrotic damage increases by 1d6 for each slot level above 3rd. </small></p>
+                                            <i><small>Prerequisite: 6th level; Learning target has a weapon attack that allows it to regain hit points on a hit. </small></i>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -764,18 +1035,35 @@ const Kaleido = () => {
                                     </thead>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Regeneration</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 minute</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
-                                            
+                                            <p className='top'>You gain the ability to regenerate your body. You heal 10 Hit Points at the beginning of each of your turns 
+                                                for the next minute, unless you take fire damage, at which point you will not regenerate. </p>
+                                            <i><small>Prerequisite: 9th level; Learning target has the Regeneration ability.</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Stoneskin</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>You gain the Stoneskin spell. It can only be cast upon yourself.</p>
+                                            <i><small>Prerequisite: 9th level; Learning target has resistance to bludgeoning, piercing, and slashing damage from nonmagical 
+                                                weapons.</small></i>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -812,6 +1100,54 @@ const Kaleido = () => {
                                             </td>
                                         </tr>
                                     </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Spell Name</td>
+                                            <td>School</td>
+                                            <td>Casting Time</td>
+                                            <td>Range</td>
+                                            <td>Duration</td>
+                                            <td>Components</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>Description</p>
+                                            <i><small>Prerequisite:</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Spell Name</td>
+                                            <td>School</td>
+                                            <td>Casting Time</td>
+                                            <td>Range</td>
+                                            <td>Duration</td>
+                                            <td>Components</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>Description</p>
+                                            <i><small>Prerequisite:</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Spell Name</td>
+                                            <td>School</td>
+                                            <td>Casting Time</td>
+                                            <td>Range</td>
+                                            <td>Duration</td>
+                                            <td>Components</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>Description</p>
+                                            <i><small>Prerequisite:</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
                                 </Table>
                             </p>
 
@@ -842,6 +1178,38 @@ const Kaleido = () => {
                                             <p className='top'>Description</p>
                                             <i><small>Prerequisite:</small></i>
                                             
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Spell Name</td>
+                                            <td>School</td>
+                                            <td>Casting Time</td>
+                                            <td>Range</td>
+                                            <td>Duration</td>
+                                            <td>Components</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>Description</p>
+                                            <i><small>Prerequisite:</small></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr onClick={onClickHandler}>
+                                            <td>Spell Name</td>
+                                            <td>School</td>
+                                            <td>Casting Time</td>
+                                            <td>Range</td>
+                                            <td>Duration</td>
+                                            <td>Components</td>
+                                        </tr>
+                                        <tr className="collapse">
+                                            <td colSpan="6">
+                                            <p className='top'>Description</p>
+                                            <i><small>Prerequisite:</small></i>
                                             </td>
                                         </tr>
                                     </tbody>

@@ -30,7 +30,7 @@ const CharacterSheetsAelith = () => {
                     </Col>  
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Body as={Link} to={'/aravala-amonodel'}>
+                        <Card.Body as={Link} to={'/malum'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -43,7 +43,7 @@ const CharacterSheetsAelith = () => {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Body as={Link} to={'/aravala-amonodel'}>
+                        <Card.Body as={Link} to={'/'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -56,7 +56,7 @@ const CharacterSheetsAelith = () => {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Body as={Link} to={'/aravala-amonodel'}>
+                        <Card.Body as={Link} to={'/shiver'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -69,7 +69,7 @@ const CharacterSheetsAelith = () => {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Body as={Link} to={'/aravala-amonodel'}>
+                        <Card.Body as={Link} to={'/'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -82,7 +82,7 @@ const CharacterSheetsAelith = () => {
                     </Col> 
                     <Col>
                     <Card className='bio-card'>
-                        <Card.Body as={Link} to={'/aravala-amonodel'}>
+                        <Card.Body as={Link} to={'/'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>

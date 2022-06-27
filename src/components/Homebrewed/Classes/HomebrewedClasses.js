@@ -62,7 +62,7 @@ const HomebrewedClasses = () => {
                         <Card.Body>
                             <Card.Title>Kaleido</Card.Title>
                             <Card.Text>
-                                goes to an empty page
+                                eventually, a blurb...
                             </Card.Text>
                         </Card.Body>    
                     </Card>
