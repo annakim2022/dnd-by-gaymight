@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row"
 import { Link } from "react-router-dom"
 import img from './placeholder-image.png';
 import './CharacterSheets.css';
+import rarri_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/YiuLaiCharacters/Rarri/rarri-img.jpeg';
 
 const CharacterSheetsYiuLai = () => {
 
@@ -29,7 +30,7 @@ const CharacterSheetsYiuLai = () => {
                 </Col>  
                 <Col>
                 <Card className='bio-card'>
-                    <Card.Body as={Link} to={'/aravala-amonodel'}>
+                    <Card.Body as={Link} to={'/'}>
                         <Card.Img variant="top" src={img} />
                     </Card.Body>
                     <Card.Body>
@@ -42,13 +43,13 @@ const CharacterSheetsYiuLai = () => {
                 </Col> 
                 <Col>
                 <Card className='bio-card'>
-                    <Card.Body as={Link} to={'/'}>
+                    <Card.Body as={Link} to={'/kepple'}>
                         <Card.Img variant="top" src={img} />
                     </Card.Body>
                     <Card.Body>
                         <Card.Title>Kepple</Card.Title>
                         <Card.Text>
-                            goes to home page
+                            CLICK IMAGE
                         </Card.Text>
                     </Card.Body>   
                 </Card>
@@ -56,7 +57,7 @@ const CharacterSheetsYiuLai = () => {
                 <Col>
                 <Card className='bio-card'>
                     <Card.Body as={Link} to={'/rarri-pebblepocket'}>
-                        <Card.Img variant="top" src={img} />
+                        <Card.Img variant="top" src={rarri_img} />
                     </Card.Body>
                     <Card.Body>
                         <Card.Title>Rarri Pebblepocket</Card.Title>

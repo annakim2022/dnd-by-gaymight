@@ -6,10 +6,9 @@ import Row from "react-bootstrap/Row"
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 
-import img from './placeholder-image.png';
-import anna from './kannabim.jpeg'
-import cal from './cal.jpeg'
-import sophie from './sophie.jpg'
+import anna from './kannabim-img.jpeg'
+import cal from './cal-img.jpeg'
+import sophie from './sophie-img.jpg'
 import daniel from './daniel-img.png'
 import yves from  './yves-img.png'
 import ella from './ella-img.png'
@@ -48,7 +47,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>cal</Card.Title>
                             <Card.Text>
-                                links to Malum and Haze work
+                                THE LINKS ON THIS CARD WORK
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -70,7 +69,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>daniel</Card.Title>
                             <Card.Text>
-                                links go to home page
+                                Kepple link works
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -78,7 +77,7 @@ function PlayerBios() {
                             <Card.Link href="/">Yenna</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/">Kepple</Card.Link>
+                            <Card.Link href="/kepple">Kepple</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -95,6 +94,9 @@ function PlayerBios() {
                         <ListGroup>
                             <ListGroupItem>
                             <Card.Link href="/">Naomi</Card.Link>
+                            </ListGroupItem>
+                            <ListGroupItem>
+                            <Card.Link href="/ssashira">Ssashira</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -113,7 +115,7 @@ function PlayerBios() {
                             <Card.Link href="/">Valista</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
-                            <Card.Link href="/">Ki'zah</Card.Link>
+                            <Card.Link href="/kizah">Ki'zah</Card.Link>
                             </ListGroupItem>
                         </ListGroup>     
                     </Card>
@@ -127,6 +129,11 @@ function PlayerBios() {
                                 our lovely DM!
                             </Card.Text>
                         </Card.Body>
+                        <ListGroup>
+                            <ListGroupItem>
+                            <Card.Link href="/vdolfnir">Vðolfnir</Card.Link>
+                            </ListGroupItem>
+                        </ListGroup>     
                     </Card> 
                     </Col> 
                 </Row>

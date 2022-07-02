@@ -2,14 +2,14 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Image from 'react-bootstrap/Image'
-import './Malum.css';
+import '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/CharacterSheets.css';
 import malum7 from './malum-stats7.jpg'
 import malum_img from './malum-img.jpeg'
 
 const Malum = () => {
 
     return (
-        <div className='Malum'>
+        <div className='CharacterSheets'>
             <div className='outer-box'>
                 <h2 className='class-name'>Malum</h2>
                 <div className='box'> 

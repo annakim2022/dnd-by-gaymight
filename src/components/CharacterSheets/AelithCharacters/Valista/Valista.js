@@ -3,20 +3,19 @@ import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Image from 'react-bootstrap/Image'
 import '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/CharacterSheets.css';
-// import Haze3 from './Haze-stats-3.jpg'
-import haze from './haze-img.jpg'
+import valista from './valista-img.jpeg'
 
-const Haze = () => {
+const Valista = () => {
 
     return (
         <div className='CharacterSheets'>
             <div className='outer-box'>
-                <h2 className='class-name'>Haze</h2>
+                <h2 className='class-name'>Valista</h2>
                 <div className='box'> 
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">
                             <div className='content'>
-                            <Image fluid className='character-art' src={haze}></Image>
+                            <Image fluid className='character-art' src={Valista}></Image>
                             </div>
                         </Tab>
                         <Tab eventKey="character-sheet" title="Character Sheet">
@@ -38,4 +37,4 @@ const Haze = () => {
     )
 }
 
-export default Haze;
+export default Valista;

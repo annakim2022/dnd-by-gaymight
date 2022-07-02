@@ -2,14 +2,14 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Image from 'react-bootstrap/Image'
-import './Aravala.css';
+import '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/CharacterSheets.css';
 import aravala15 from './aravala-stats-15.jpg'
 import aravala_img from './aravala-image.jpg'
 
 const Aravala = () => {
 
     return (
-        <div className='Aravala'>
+        <div className='CharacterSheets'>
             <div className='outer-box'>
                 <h2 className='class-name'>Aravala Amonodel</h2>
                 <div className='box'> 

@@ -16,7 +16,7 @@
 .anna-pp{
     height: 300px;
     object-fit: cover;
-    object-position: 0px -40px;
+    object-position: top;
 }
 
 .cal-pp{
@@ -34,13 +34,13 @@
 .ella-pp{
     height: 300px;
     object-fit: cover;
-    object-position: 0px -110px;
+    object-position: top;
 }
 
 .daniel-pp{
     height: 300px;
     object-fit: cover;
-    object-position: 0px -140px;
+    object-position: 0px -80px;
 }
 
 .yves-pp{

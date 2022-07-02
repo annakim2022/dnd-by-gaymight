@@ -30,6 +30,10 @@ import Shiver from './components/CharacterSheets/AelithCharacters/Shiver/Shiver'
 
 import Rarri from './components/CharacterSheets/YiuLaiCharacters/Rarri/Rarri';
 import Haze from './components/CharacterSheets/YiuLaiCharacters/Haze/Haze'
+import Kepple from './components/CharacterSheets/YiuLaiCharacters/Kepple/Kepple'
+import Kizah from './components/CharacterSheets/YiuLaiCharacters/Kizah/Kizah'
+import Ssashira from './components/CharacterSheets/YiuLaiCharacters/Ssashira/Ssashira'
+import Vdolfnir from './components/CharacterSheets/YiuLaiCharacters/Vdolfnir/Vdolfnir'
 
 function App() {
 
@@ -81,17 +85,19 @@ function App() {
           <Route exact path='/player-bios' element={<PlayerBios/>}> </Route>
           <Route exact path='/yiu-lai-character-sheets' element={<CharacterSheetsYiuLai/>}> </Route>
               <Route exact path='/haze' element={<Haze/>}> </Route>
-              {/* <Route exact path='/kepple' element={<TODO/>}> </Route>
-              <Route exact path='/kizah' element={<TODO/>}> </Route> */}
-              <Route exact path='/rarri-pebblepocket' element={<Rarri/>}> </Route>
+              <Route exact path='/kepple' element={<Kepple/>}> </Route>
+              <Route exact path='/kizah' element={<Kizah/>}> </Route>
+              <Route exact path='/rarri-pebblepocket' element={<Rarri/>}></Route>
+              <Route exact path='/ssashira' element={<Ssashira/>}></Route>
+              <Route exact path='/vdolfnir' element={<Vdolfnir/>}></Route>
 
           <Route exact path='/aelith-character-sheets' element={<CharacterSheetsAelith/>}> </Route>
               <Route exact path='/aravala-amonodel' element={<Aravala/>}> </Route>
               <Route exact path='/malum' element={<Malum/>}> </Route>
               <Route exact path='/shiver' element={<Shiver/>}> </Route>
-              {/* <Route exact path='/naomi' element={<TODO/>}> </Route>
-              <Route exact path='/valista' element={<TODO/>}> </Route>
-              <Route exact path='/yenna' element={<TODO/>}> </Route> */}
+              {/* <Route exact path='/naomi' element={<Naomi/>}> </Route>
+              <Route exact path='/valista' element={<Valista/>}> </Route>
+              <Route exact path='/yenna' element={<Yenna/>}> </Route> */}
 
           <Route exact path='/yiu-lai-session-summaries' element={<SessionSummariesYiuLai/>}> </Route>
           <Route exact path='/aelith-session-summaries' element={<SessionSummariesAelith/>}> </Route>

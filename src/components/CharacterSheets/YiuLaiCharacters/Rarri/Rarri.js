@@ -2,14 +2,14 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Image from 'react-bootstrap/Image'
-import './Rarri.css';
+import '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/CharacterSheets.css';
 import rarri3 from './rarri-stats-3.jpg'
-import rarri_img from './rarri-img.jpg'
+import rarri_img from './rarri-img.jpeg'
 
 const Rarri = () => {
 
     return (
-        <div className='Rarri'>
+        <div className='CharacterSheets'>
             <div className='outer-box'>
                 <h2 className='class-name'>Rarri Pebblepocket</h2>
                 <div className='box'> 

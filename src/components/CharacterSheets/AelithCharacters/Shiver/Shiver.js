@@ -2,7 +2,7 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Image from 'react-bootstrap/Image'
-import './Shiver.css';
+import '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/CharacterSheets.css';
 import shiver2 from './shiver-stats2.jpg'
 import shiver20 from './shiver-stats20.jpg'
 import shiver_img from './shiver-img.jpeg'
@@ -11,7 +11,7 @@ import shiver_img2 from './shiver-img2.jpg'
 const Shiver = () => {
 
     return (
-        <div className='Shiver'>
+        <div className='CharacterSheets'>
             <div className='outer-box'>
                 <h2 className='class-name'>Shiver</h2>
                 <div className='box'> 
