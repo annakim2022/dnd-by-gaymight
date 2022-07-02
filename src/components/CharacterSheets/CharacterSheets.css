@@ -20,3 +20,15 @@
     height: 30rem;
     object-fit: contain;
 }
+
+.rarri-preview{
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px -25px;
+}
+
+.preview{
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}

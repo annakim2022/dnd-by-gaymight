@@ -4,9 +4,13 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
 import { Link } from "react-router-dom"
-
-import img from './placeholder-image.png';
 import './CharacterSheets.css';
+import img from './placeholder-image.png';
+
+import aravala_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/AelithCharacters/Aravala/aravala-image.jpg'
+import shiver_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/AelithCharacters/Shiver/shiver-img.jpeg'
+import malum_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/AelithCharacters/Malum/malum-img.jpeg'
+
 
 const CharacterSheetsAelith = () => {
 
@@ -18,12 +22,12 @@ const CharacterSheetsAelith = () => {
                     <Col>
                     <Card className='bio-card'>
                         <Card.Body as={Link} to={'/aravala-amonodel'}>
-                            <Card.Img variant="top" src={img} />
+                            <Card.Img className='preview' variant="top" src={aravala_img} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Aravala Amonodel</Card.Title>
                             <Card.Text>
-                                CLICK IMAGE
+                                blurb
                             </Card.Text>
                         </Card.Body>                             
                     </Card> 
@@ -31,12 +35,12 @@ const CharacterSheetsAelith = () => {
                     <Col>
                     <Card className='bio-card'>
                         <Card.Body as={Link} to={'/malum'}>
-                            <Card.Img variant="top" src={img} />
+                            <Card.Img className='preview' variant="top" src={malum_img} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Malum</Card.Title>
                             <Card.Text>
-                                goes to home page
+                                blurb
                             </Card.Text>
                         </Card.Body>   
                     </Card>
@@ -49,7 +53,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Naomi</Card.Title>
                             <Card.Text>
-                                goes to home page
+                                nothing here yet
                             </Card.Text>
                         </Card.Body>   
                     </Card>
@@ -57,12 +61,12 @@ const CharacterSheetsAelith = () => {
                     <Col>
                     <Card className='bio-card'>
                         <Card.Body as={Link} to={'/shiver'}>
-                            <Card.Img variant="top" src={img} />
+                            <Card.Img className='preview' variant="top" src={shiver_img} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Shiver</Card.Title>
                             <Card.Text>
-                                goes to home page
+                                blurb
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -75,7 +79,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Valista</Card.Title>
                             <Card.Text>
-                                goes to home page
+                                nothing here yet
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -88,7 +92,7 @@ const CharacterSheetsAelith = () => {
                         <Card.Body>
                             <Card.Title>Yenna</Card.Title>
                             <Card.Text>
-                                goes to home page
+                                nothing here yet
                             </Card.Text>
                         </Card.Body>
                     </Card> 

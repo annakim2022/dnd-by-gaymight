@@ -28,7 +28,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>anna</Card.Title>
                             <Card.Text>
-                                THE LINKS ON THIS CARD WORK
+                                ALL LINKS ON THIS CARD WORK
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -47,7 +47,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>cal</Card.Title>
                             <Card.Text>
-                                THE LINKS ON THIS CARD WORK
+                                ALL LINKS ON THIS CARD WORK
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -88,7 +88,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>ella</Card.Title>
                             <Card.Text>
-                                links go to home page
+                                ssashira link works
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -107,7 +107,7 @@ function PlayerBios() {
                         <Card.Body>
                             <Card.Title>sophie</Card.Title>
                             <Card.Text>
-                                links go to home page
+                                ki'zah link works
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>

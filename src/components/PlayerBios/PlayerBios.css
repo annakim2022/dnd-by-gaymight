@@ -34,7 +34,7 @@
 .ella-pp{
     height: 300px;
     object-fit: cover;
-    object-position: top;
+    object-position: 0px -10px;
 }
 
 .daniel-pp{
