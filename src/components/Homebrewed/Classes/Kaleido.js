@@ -614,7 +614,7 @@ const Kaleido = () => {
                                                 <p className='top'>You gain the 1st level spell that the target cast. </p>
                                                 <p><small><b><i>At Higher Levels.&nbsp;</i></b> At the 3rd, 6th, 9th, 12th, 15th, and 18th Kaleido levels, you gain 
                                                     the 2nd, 3rd, 4th, 5th, 6th, or 7th level spell that the target cast, using the same spell level slot. </small></p>
-                                                <i><small>Prerequisite: 1st level; Learning target cast a spell of 1st level no longer than 1 minute ago.</small></i>                         
+                                                <i><small>Prerequisite: At least 1st level; Learning target cast the target spell no longer than 1 minute ago.</small></i>                         
                                             </td>
                                         </tr>
                                     </tbody>
@@ -938,14 +938,14 @@ const Kaleido = () => {
                                             <td>Inspire Fear</td>
                                             <td>Illusion or Transmutation*</td>
                                             <td>1 Action</td>
-                                            <td>Self</td>
+                                            <td>?</td>
                                             <td>Up to 1 minute*</td>
                                             <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
                                             <p className='top'>If gained from a Learning Action, you reproduce the effect and the spell is an illusion.</p>
-                                            <p>*If gained from a Learning Trait, you gain that trait for 1 minute, and the spell is a transmutation</p>
+                                            <p>*If gained from a Learning Trait, you gain that trait for 1 minute, and the spell is a transmutation.</p>
                                             <i><small>Prerequisite: 6th level; Learning target has an action or a trait that can make a creature frightened.</small></i>
                                             </td>
                                         </tr>
@@ -987,7 +987,7 @@ const Kaleido = () => {
                                             <td>Slow</td>
                                             <td>Transmutation</td>
                                             <td>1 Action</td>
-                                            <td>Self</td>
+                                            <td>?</td>
                                             <td>?</td>
                                             <td>V, S</td>
                                         </tr>
@@ -1085,66 +1085,73 @@ const Kaleido = () => {
                                     </thead>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Beast's Gaze</td>
+                                            <td>Enchantment</td>
+                                            <td>1 Action</td>
+                                            <td>?</td>
+                                            <td>?</td>
+                                            <td>S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
+                                            <p className='top'>You reproduce the effect of the Learning Action, using your spell save DC.</p>
+                                            <i><small>Prerequisite: 12th level; Learning target has a gaze.</small></i>
                                             
                                             </td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Incorporeal Movement</td>
+                                            <td>Transmuation</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 minute</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
+                                            <p className='top'>For 1 minute you can move through other creatures and objects as if they were difficult terrain. You take 
+                                            1d10 force damage if you end your turn inside an object.</p>
+                                            <i><small>Prerequisite: 12th level; Learning target has Incorporeal Movement. </small></i>
                                             </td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Legendary Resistance</td>
+                                            <td>Transmuation</td>
+                                            <td>1 Action</td>
+                                            <td>15 Feet*</td>
+                                            <td>Instantaneous</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
+                                            <p className='top'>Once during the next 8 hours, if you fail a saving throw, you may choose to succeed instead.</p>
+                                            <p>*This spell requires a 15 foot cube adjacent to yourself to cast. It can also only be cast once per day and cannot be taken 
+                                            as a Signature Lore spell.</p>
+                                            <p><small><b><i>At Higher Levels.&nbsp;</i></b> If you cast this spell using a spell slot of level 5, you may choose to succeed 
+                                            on an additional saving throw within the duration, provided that the target had at least 2 legendary resistances. If you cast 
+                                            this spell using a spell slot of level 7, you may choose to succeed on a third saving throw, provided that the target had 3 
+                                            legendary resistances. </small></p>
+                                            <i><small>Prerequisite: 12th level; Learning target has a Legendary Resistance.</small></i>
                                             </td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Paralyze</td>
+                                            <td>Transmutation</td>
+                                            <td>1 Action</td>
+                                            <td>?</td>
+                                            <td>?</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
+                                            <p className='top'>You reproduce the effect of the Learning Action, using your spell save DC.</p>
+                                            <i><small>Prerequisite: 12th level; Learning target has an action that can paralyze a creature.</small></i>
                                             </td>
                                         </tr>
                                     </tbody>

@@ -27,7 +27,7 @@ const Aravala = () => {
                         <Tab eventKey="background" title="Background">
                             <div className='content'>
                             <h4>Pre-Campaign</h4>
-                            <p>Born into one of the oldest and most prestigious noble elf families in the Sylvan Province(?), Aravala Amonodel grew up
+                            <p className='text'>Born into one of the oldest and most prestigious noble elf families in the Sylvan Province(?), Aravala Amonodel grew up
                                 learning how to bend high society to her will. Her family name, Amonodel, translates to Moonflower in the common language, 
                                 and speaks to the rare silver eyes that have been passed down since the first wood elves came to grace the forests that
                                 that make up her home. Despite her silver tongue, Aravala prefers the company of animals and wildlife to the politics of 

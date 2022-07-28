@@ -26,9 +26,11 @@ function PlayerBios() {
                     <Card className='bio-card'>
                         <Card.Img className="anna-pp" variant="top" src={anna}/>
                         <Card.Body>
-                            <Card.Title>anna</Card.Title>
-                            <Card.Text>
-                                ALL LINKS ON THIS CARD WORK
+                            <Card.Title>Anna &#40;she/hers&#41;</Card.Title>
+                            <Card.Text className="entry">  
+                                    <li>highest stat: STR &#40;athletics&#41;</li>
+                                    <li>lowest stat: WIS &#40;perception&#41;</li>
+                                    <li>fun fact: made this website</li>            
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -45,9 +47,13 @@ function PlayerBios() {
                     <Card className='bio-card'>
                         <Card.Img className="cal-pp" variant="top" src={cal}/>
                         <Card.Body>
-                            <Card.Title>cal</Card.Title>
-                            <Card.Text>
-                                ALL LINKS ON THIS CARD WORK
+                            <Card.Title>Cal &#40;he/him&#41;</Card.Title>
+                            <Card.Text className="entry">
+                              
+                                    <li>highest stat:</li>
+                                    <li>lowest stat:</li>
+                                    <li>fun fact: 16 hour time difference</li>
+                                
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -67,9 +73,13 @@ function PlayerBios() {
                     <Card className='bio-card'>
                         <Card.Img className='daniel-pp' variant="top" src={daniel}/>
                         <Card.Body>
-                            <Card.Title>daniel</Card.Title>
-                            <Card.Text>
-                                Kepple link works
+                            <Card.Title>Daniel &#40;he/him&#41;</Card.Title>
+                            <Card.Text className="entry">
+                               
+                                    <li>highest stat:</li>
+                                    <li>lowest stat:</li>
+                                    <li>fun fact: obessed with yellow</li>
+                                
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -86,9 +96,13 @@ function PlayerBios() {
                     <Card className='bio-card'>
                         <Card.Img className='ella-pp' variant="top" src={ella}/>
                         <Card.Body>
-                            <Card.Title>ella</Card.Title>
-                            <Card.Text>
-                                ssashira link works
+                            <Card.Title>Ella &#40;she/her&#41;</Card.Title>
+                            <Card.Text className="entry">
+                               
+                                    <li>highest stat: CHA &#40;persuasion&#41;</li>
+                                    <li>lowest stat: CON</li>
+                                    <li>fun fact: has too much kombucha</li>
+                                
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -105,9 +119,13 @@ function PlayerBios() {
                     <Card className='bio-card'>
                         <Card.Img className="sophie-pp" variant="top" src={sophie}/>
                         <Card.Body>
-                            <Card.Title>sophie</Card.Title>
-                            <Card.Text>
-                                ki'zah link works
+                            <Card.Title>Sophie &#40;she/her&#41;</Card.Title>
+                            <Card.Text className="entry">
+                               
+                                    <li>highest stat: CHA &#40;persuasion&#41;</li>
+                                    <li>lowest stat: WIS &#40;insight&#41;</li>
+                                    <li>fun fact: plays frisbee with pros</li>
+                               
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
@@ -124,9 +142,13 @@ function PlayerBios() {
                     <Card className='bio-card'>
                         <Card.Img className='yves-pp' variant="top" src={yves}/>
                         <Card.Body>
-                            <Card.Title>yves</Card.Title>
-                            <Card.Text>
-                                our lovely DM!
+                            <Card.Title>Yves &#40;they/them&#41;</Card.Title>
+                            <Card.Text className="entry">
+                               
+                                    <li>highest stat:</li>
+                                    <li>lowest stat:</li>
+                                    <li>fun fact: our lovely DM!</li>
+                              
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>

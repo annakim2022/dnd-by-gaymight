@@ -48,3 +48,7 @@
     object-fit: cover;
     object-position: 0px -90px;
 }
+
+.entry {
+    font-size: small;
+}

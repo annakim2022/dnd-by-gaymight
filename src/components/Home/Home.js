@@ -16,12 +16,11 @@ const Home = () => {
                     src={img}
                     alt="Second slide"
                     />
-                    <Carousel.Caption className='announcements'>
+                    <Carousel.Caption>
                     <h3>Hello Friends!</h3>
                     <p><b>Check out the Kaleido page (found in Hombrewed -&gt; Classes)! Construction is about 60% done.</b></p>
-                    <p>Reminder: please don't share this website with anyone. idk how servers really work yet and don't 
-                        know how many ppl can open this without crashing it lmao.</p>
-                    <h6>p.s. If you're here 'cause you clicked a link that should've taken you somewhere else, that link prob doesn't work yet oop.</h6>
+                    <p>Reminder: If you want your character sheets and backstories uploaded, send them to me! Images should be in jpeg format.</p>
+                    <h6>p.s. If you're here because you clicked a link that should've taken you somewhere else, that link prob doesn't work yet oop.</h6>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
