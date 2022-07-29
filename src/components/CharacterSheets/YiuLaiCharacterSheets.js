@@ -22,9 +22,9 @@ const CharacterSheetsYiuLai = () => {
         <Container fluid>
             <Row xs={1} sm={2} lg={3}>
                 <Col>
-                <Card className='bio-card'>
+                <Card className='preview-card'>
                     <Card.Body as={Link} to={'/haze'}>
-                        <Card.Img className='preview' variant="top" src={haze_img} />
+                        <Card.Img className='preview-img' variant="top" src={haze_img} />
                     </Card.Body>
                     <Card.Body>
                         <Card.Title>Haze</Card.Title>
@@ -35,9 +35,9 @@ const CharacterSheetsYiuLai = () => {
                 </Card> 
                 </Col>  
                 <Col>
-                <Card className='bio-card'>
+                <Card className='preview-card'>
                     <Card.Body as={Link} to={'/kizah'}>
-                        <Card.Img className='preview' variant="top" src={kizah_img} />
+                        <Card.Img className='preview-img' variant="top" src={kizah_img} />
                     </Card.Body>
                     <Card.Body>
                         <Card.Title>Ki'zah</Card.Title>
@@ -48,9 +48,9 @@ const CharacterSheetsYiuLai = () => {
                 </Card>
                 </Col> 
                 <Col>
-                <Card className='bio-card'>
+                <Card className='preview-card'>
                     <Card.Body as={Link} to={'/kepple'}>
-                        <Card.Img className='preview' variant="top" src={kepple_img} />
+                        <Card.Img className='preview-img' variant="top" src={kepple_img} />
                     </Card.Body>
                     <Card.Body>
                         <Card.Title>Kepple</Card.Title>
@@ -61,7 +61,7 @@ const CharacterSheetsYiuLai = () => {
                 </Card>
                 </Col> 
                 <Col>
-                <Card className='bio-card'>
+                <Card className='preview-card'>
                     <Card.Body as={Link} to={'/rarri-pebblepocket'}>
                         <Card.Img className='rarri-preview' variant="top" src={rarri_img} />
                     </Card.Body>
@@ -74,9 +74,9 @@ const CharacterSheetsYiuLai = () => {
                 </Card>
                 </Col> 
                 <Col>
-                <Card className='bio-card'>
+                <Card className='preview-card'>
                     <Card.Body as={Link} to={'/ssashira'}>
-                        <Card.Img className='preview' variant="top" src={ssashira_img} />
+                        <Card.Img className='preview-img' variant="top" src={ssashira_img} />
                     </Card.Body>
                     <Card.Body>
                         <Card.Title>Ssashira</Card.Title>
@@ -87,9 +87,9 @@ const CharacterSheetsYiuLai = () => {
                 </Card>
                 </Col> 
                 <Col>
-                <Card className='bio-card'>
+                <Card className='preview-card'>
                     <Card.Body as={Link} to={'/vdolfnir'}>
-                        <Card.Img className='preview' variant="top" src={vdolfnir_img} />
+                        <Card.Img className='preview-img' variant="top" src={vdolfnir_img} />
                     </Card.Body>
                     <Card.Body>
                         <Card.Title>Viðolfnir</Card.Title>

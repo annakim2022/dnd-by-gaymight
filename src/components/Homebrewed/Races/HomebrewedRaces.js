@@ -15,7 +15,7 @@ const HomebrewedRaces = () => {
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
                     {/* <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                         <Card.Body as={Link} to={'/animated'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
@@ -28,7 +28,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -41,7 +41,7 @@ const HomebrewedRaces = () => {
                         </Card>
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -54,7 +54,7 @@ const HomebrewedRaces = () => {
                         </Card>
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -67,7 +67,7 @@ const HomebrewedRaces = () => {
                         </Card>
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -80,7 +80,7 @@ const HomebrewedRaces = () => {
                         </Card>
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -93,7 +93,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -106,7 +106,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -119,7 +119,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col>  */}
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -132,7 +132,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     {/* <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -145,7 +145,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col>  */}
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -158,7 +158,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -171,7 +171,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -184,7 +184,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     {/* <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -197,7 +197,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -210,7 +210,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -223,7 +223,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -236,7 +236,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -249,7 +249,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>
@@ -262,7 +262,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col> 
                     <Col>
-                        <Card className='race-card'>
+                        <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
                             </Card.Body>

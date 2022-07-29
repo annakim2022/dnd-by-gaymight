@@ -4,7 +4,8 @@ import Tab from 'react-bootstrap/Tab'
 import Image from 'react-bootstrap/Image'
 import '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/CharacterSheets.css';
 import aravala15 from './aravala-stats-15.jpg'
-import aravala_img from './aravala-image.jpg'
+import aravala_fullbody from './aravala-image.jpg'
+import aravala_headshot from "/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/aravala_headshot.jpg"
 
 const Aravala = () => {
 
@@ -15,9 +16,8 @@ const Aravala = () => {
                 <div className='box'> 
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">
-                            <div className='content'>
-                            <Image fluid className='character-art' src={aravala_img}></Image>
-                            </div>
+                            <div className='content'><Image fluid className='character-art' src={aravala_headshot}></Image></div>
+                            <div className='content'><Image fluid className='character-art' src={aravala_fullbody}></Image></div>
                         </Tab>
                         <Tab eventKey="character-sheet" title="Character Sheet">
                             {/* <div className='content'> */}

@@ -23,9 +23,9 @@ import Animated from './components/Homebrewed/Races/Animated'
 import Aravala from './components/CharacterSheets/AelithCharacters/Aravala/Aravala';
 import Malum from './components/CharacterSheets/AelithCharacters/Malum/Malum';
 import Shiver from './components/CharacterSheets/AelithCharacters/Shiver/Shiver';
-// import Malum from './components/CharacterSheets/AelithCharacters/Malum/Malum';
-// import Malum from './components/CharacterSheets/AelithCharacters/Malum/Malum';
-// import Malum from './components/CharacterSheets/AelithCharacters/Malum/Malum';
+import Naomi from './components/CharacterSheets/AelithCharacters/Naomi/Naomi';
+import Yenna from './components/CharacterSheets/AelithCharacters/Yenna/Yenna';
+import Valista from './components/CharacterSheets/AelithCharacters/Valista/Valista';
 
 
 import Rarri from './components/CharacterSheets/YiuLaiCharacters/Rarri/Rarri';
@@ -95,9 +95,9 @@ function App() {
               <Route exact path='/aravala-amonodel' element={<Aravala/>}> </Route>
               <Route exact path='/malum' element={<Malum/>}> </Route>
               <Route exact path='/shiver' element={<Shiver/>}> </Route>
-              {/* <Route exact path='/naomi' element={<Naomi/>}> </Route>
+              <Route exact path='/naomi' element={<Naomi/>}> </Route>
               <Route exact path='/valista' element={<Valista/>}> </Route>
-              <Route exact path='/yenna' element={<Yenna/>}> </Route> */}
+              <Route exact path='/yenna' element={<Yenna/>}> </Route>
 
           <Route exact path='/yiu-lai-session-summaries' element={<SessionSummariesYiuLai/>}> </Route>
           <Route exact path='/aelith-session-summaries' element={<SessionSummariesAelith/>}> </Route>

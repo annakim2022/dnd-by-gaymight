@@ -4,11 +4,6 @@
     margin-right: 20px;
 }
 
-.title{
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-
 .character-sheet {
     /* rem = n*16 px */
     /* border: 1px solid rgba(85, 85, 85, 0.15); */
@@ -27,7 +22,7 @@
     object-position: 0px -25px;
 }
 
-.preview{
+.preview-img{
     height: 300px;
     object-fit: cover;
     object-position: top;

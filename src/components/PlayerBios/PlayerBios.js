@@ -23,13 +23,15 @@ function PlayerBios() {
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Img className="anna-pp" variant="top" src={anna}/>
+                    <Card className='preview-card'>
                         <Card.Body>
-                            <Card.Title>Anna &#40;she/hers&#41;</Card.Title>
+                            <Card.Img className="anna-pp" variant="top" src={anna}/>
+                        </Card.Body>
+                        <Card.Body className='blurb'>
+                            <Card.Title>Anna (she/hers)</Card.Title>
                             <Card.Text className="entry">  
-                                    <li>highest stat: STR &#40;athletics&#41;</li>
-                                    <li>lowest stat: WIS &#40;perception&#41;</li>
+                                    <li>highest stat: STR (athletics)</li>
+                                    <li>lowest stat: WIS (perception)</li>
                                     <li>fun fact: made this website</li>            
                             </Card.Text>
                         </Card.Body>
@@ -44,10 +46,12 @@ function PlayerBios() {
                     </Card> 
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Img className="cal-pp" variant="top" src={cal}/>
+                    <Card className='preview-card'>
                         <Card.Body>
-                            <Card.Title>Cal &#40;he/him&#41;</Card.Title>
+                            <Card.Img className="cal-pp" variant="top" src={cal}/>
+                        </Card.Body>
+                        <Card.Body className='blurb'>
+                            <Card.Title>Cal (he/him/she/her)</Card.Title>
                             <Card.Text className="entry">
                               
                                     <li>highest stat:</li>
@@ -70,10 +74,12 @@ function PlayerBios() {
                     </Card>
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Img className='daniel-pp' variant="top" src={daniel}/>
+                    <Card className='preview-card'>
                         <Card.Body>
-                            <Card.Title>Daniel &#40;he/him&#41;</Card.Title>
+                            <Card.Img className='daniel-pp' variant="top" src={daniel}/>
+                        </Card.Body>
+                        <Card.Body className='blurb'>
+                            <Card.Title>Daniel (he/him)</Card.Title>
                             <Card.Text className="entry">
                                
                                     <li>highest stat:</li>
@@ -84,7 +90,7 @@ function PlayerBios() {
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/">Yenna</Card.Link>
+                            <Card.Link href="/yenna">Yenna</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
                             <Card.Link href="/kepple">Kepple</Card.Link>
@@ -93,13 +99,15 @@ function PlayerBios() {
                     </Card>
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Img className='ella-pp' variant="top" src={ella}/>
+                    <Card className='preview-card'>
                         <Card.Body>
-                            <Card.Title>Ella &#40;she/her&#41;</Card.Title>
+                            <Card.Img className='ella-pp' variant="top" src={ella}/>
+                        </Card.Body>
+                        <Card.Body className='blurb'>
+                            <Card.Title>Ella (she/her)</Card.Title>
                             <Card.Text className="entry">
                                
-                                    <li>highest stat: CHA &#40;persuasion&#41;</li>
+                                    <li>highest stat: CHA (persuasion)</li>
                                     <li>lowest stat: CON</li>
                                     <li>fun fact: has too much kombucha</li>
                                 
@@ -107,7 +115,7 @@ function PlayerBios() {
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/">Naomi</Card.Link>
+                            <Card.Link href="/naomi">Naomi</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
                             <Card.Link href="/ssashira">Ssashira</Card.Link>
@@ -116,21 +124,23 @@ function PlayerBios() {
                     </Card>
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Img className="sophie-pp" variant="top" src={sophie}/>
+                    <Card className='preview-card'>
                         <Card.Body>
-                            <Card.Title>Sophie &#40;she/her&#41;</Card.Title>
+                            <Card.Img className="sophie-pp" variant="top" src={sophie}/>
+                        </Card.Body>
+                        <Card.Body className='blurb'>
+                            <Card.Title>Sophie (she/her)</Card.Title>
                             <Card.Text className="entry">
                                
-                                    <li>highest stat: CHA &#40;persuasion&#41;</li>
-                                    <li>lowest stat: WIS &#40;insight&#41;</li>
+                                    <li>highest stat: CHA (persuasion)</li>
+                                    <li>lowest stat: WIS (insight)</li>
                                     <li>fun fact: plays frisbee with pros</li>
                                
                             </Card.Text>
                         </Card.Body>
                         <ListGroup>
                             <ListGroupItem>
-                            <Card.Link href="/">Valista</Card.Link>
+                            <Card.Link href="/valista">Valista</Card.Link>
                             </ListGroupItem>
                             <ListGroupItem>
                             <Card.Link href="/kizah">Ki'zah</Card.Link>
@@ -139,10 +149,12 @@ function PlayerBios() {
                     </Card>
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Img className='yves-pp' variant="top" src={yves}/>
+                    <Card className='preview-card'>
                         <Card.Body>
-                            <Card.Title>Yves &#40;they/them&#41;</Card.Title>
+                            <Card.Img className='yves-pp' variant="top" src={yves}/>
+                        </Card.Body>
+                        <Card.Body className='blurb'>
+                            <Card.Title>Yves (they/them)</Card.Title>
                             <Card.Text className="entry">
                                
                                     <li>highest stat:</li>

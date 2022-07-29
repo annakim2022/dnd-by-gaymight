@@ -7,9 +7,11 @@ import { Link } from "react-router-dom"
 import './CharacterSheets.css';
 import img from './placeholder-image.png';
 
-import aravala_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/AelithCharacters/Aravala/aravala-image.jpg'
 import shiver_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/AelithCharacters/Shiver/shiver-img.jpeg'
 import malum_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/AelithCharacters/Malum/malum-img.jpeg'
+import aravala_headshot from "/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/aravala_headshot.jpg"
+import naomi_headshot from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/naomi_headshot.jpg'
+import yenna_headshot from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/yenna_headshot.jpg'
 
 
 const CharacterSheetsAelith = () => {
@@ -20,9 +22,9 @@ const CharacterSheetsAelith = () => {
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
                     <Col>
-                    <Card className='bio-card'>
+                    <Card className='preview-card'>
                         <Card.Body as={Link} to={'/aravala-amonodel'}>
-                            <Card.Img className='preview' variant="top" src={aravala_img} />
+                            <Card.Img className='preview-img' variant="top" src={aravala_headshot} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Aravala Amonodel</Card.Title>
@@ -33,9 +35,9 @@ const CharacterSheetsAelith = () => {
                     </Card> 
                     </Col>  
                     <Col>
-                    <Card className='bio-card'>
+                    <Card className='preview-card'>
                         <Card.Body as={Link} to={'/malum'}>
-                            <Card.Img className='preview' variant="top" src={malum_img} />
+                            <Card.Img className='preview-img' variant="top" src={malum_img} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Malum</Card.Title>
@@ -46,22 +48,22 @@ const CharacterSheetsAelith = () => {
                     </Card>
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Body as={Link} to={'/'}>
-                            <Card.Img variant="top" src={img} />
+                    <Card className='preview-card'>
+                        <Card.Body as={Link} to={'/naomi'}>
+                            <Card.Img className='preview-img' variant="top" src={naomi_headshot} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Naomi</Card.Title>
                             <Card.Text>
-                                nothing here yet
+                                blurb
                             </Card.Text>
                         </Card.Body>   
                     </Card>
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
+                    <Card className='preview-card'>
                         <Card.Body as={Link} to={'/shiver'}>
-                            <Card.Img className='preview' variant="top" src={shiver_img} />
+                            <Card.Img className='preview-img' variant="top" src={shiver_img} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Shiver</Card.Title>
@@ -72,8 +74,8 @@ const CharacterSheetsAelith = () => {
                     </Card>
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Body as={Link} to={'/'}>
+                    <Card className='preview-card'>
+                        <Card.Body as={Link} to={'/valista'}>
                             <Card.Img variant="top" src={img} />
                         </Card.Body>
                         <Card.Body>
@@ -85,14 +87,14 @@ const CharacterSheetsAelith = () => {
                     </Card>
                     </Col> 
                     <Col>
-                    <Card className='bio-card'>
-                        <Card.Body as={Link} to={'/'}>
-                            <Card.Img variant="top" src={img} />
+                    <Card className='preview-card'>
+                        <Card.Body as={Link} to={'/yenna'}>
+                            <Card.Img className="preview-img" variant="top" src={yenna_headshot} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Yenna</Card.Title>
                             <Card.Text>
-                                nothing here yet
+                                blurb
                             </Card.Text>
                         </Card.Body>
                     </Card> 
