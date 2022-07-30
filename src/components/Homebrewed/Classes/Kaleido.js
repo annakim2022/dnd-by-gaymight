@@ -16,10 +16,225 @@ const Kaleido = () => {
         <div className='Kaleido'> 
             <div className='outer-box'>
                 <h2 className='class-name'>Kaleido</h2>
-                <div className='box'> 
-                    <Tabs defaultActiveKey='spell-list'>
+                <div className='box'>        
+                    <Tabs defaultActiveKey='features'>
                         <Tab eventKey="features" title="Class Features">
                             <div className='content'>
+                            <h3>The Kaleido Table</h3>
+                                <p>
+                                <Table responsive bordered size="sm" className='md-table'>
+                                    <thead className='thead'>
+                                        <tr>
+                                            <th>Level</th>
+                                            <th>Proficiency Bonus</th>
+                                            <th>MP&nbsp;&nbsp;</th>
+                                            <th>Max Spell Level</th>
+                                            <th>Traits Known</th>
+                                            <th>Features</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1st</td>
+                                            <td className='right'>+2&nbsp;</td>
+                                            <td className='right'>4</td>
+                                            <td className='right'>1st&nbsp;</td>
+                                            <td className='right'>4&nbsp;</td>
+                                            <td>Spellcasting, Learning, Traits</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>2nd</td>
+                                            <td className='right'>+2&nbsp;</td>
+                                            <td className='right'>8</td>
+                                            <td className='right'>1st&nbsp;</td>
+                                            <td className='right'>4&nbsp;</td>
+                                            <td>Magic Refractions, Color Drain</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>3rd</td>
+                                            <td className='right'>+2&nbsp;</td>
+                                            <td className='right'>13</td>
+                                            <td className='right'>2nd&nbsp;</td>
+                                            <td className='right'>4&nbsp;</td>
+                                            <td>Kaleido Origin, Check</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>4th</td>
+                                            <td className='right'>+2&nbsp;</td>
+                                            <td className='right'>17</td>
+                                            <td className='right'>2nd&nbsp;</td>
+                                            <td className='right'>4&nbsp;</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>5th</td>
+                                            <td className='right'>+3&nbsp;</td>
+                                            <td className='right'>22</td>
+                                            <td className='right'>2nd&nbsp;</td>
+                                            <td className='right'>6&nbsp;</td>
+                                            <td>Kaleido Origin Feature</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>6th</td>
+                                            <td className='right'>+3&nbsp;</td>
+                                            <td className='right'>26</td>
+                                            <td className='right'>3rd&nbsp;</td>
+                                            <td className='right'>6&nbsp;</td>
+                                            <td className='right'>--</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>7th</td>
+                                            <td className='right'>+3&nbsp;</td>
+                                            <td className='right'>30</td>
+                                            <td className='right'>3rd&nbsp;</td>
+                                            <td className='right'>6&nbsp;</td>
+                                            <td>--</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>8th</td>
+                                            <td className='right'>+3&nbsp;</td>
+                                            <td className='right'>35</td>
+                                            <td className='right'>3rd&nbsp;</td>
+                                            <td className='right'>6&nbsp;</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>9th</td>
+                                            <td className='right'>+4&nbsp;</td>
+                                            <td className='right'>39</td>
+                                            <td className='right'>4th&nbsp;</td>
+                                            <td className='right'>8&nbsp;</td>
+                                            <td>Kaleido Origin Feature</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>10th</td>
+                                            <td className='right'>+4&nbsp;</td>
+                                            <td className='right'>43</td>
+                                            <td className='right'>4th&nbsp;</td>
+                                            <td className='right'>8&nbsp;</td>
+                                            <td>Focused Acuity</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>11th</td>
+                                            <td className='right'>+4&nbsp;</td>
+                                            <td className='right'>47</td>
+                                            <td className='right'>4th&nbsp;</td>
+                                            <td className='right'>8&nbsp;</td>
+                                            <td>Signature Lore</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>12th</td>
+                                            <td className='right'>+4&nbsp;</td>
+                                            <td className='right'>52</td>
+                                            <td className='right'>5th&nbsp;</td>
+                                            <td className='right'>8&nbsp;</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>13th</td>
+                                            <td className='right'>+5&nbsp;</td>
+                                            <td className='right'>56</td>
+                                            <td className='right'>5th&nbsp;</td>
+                                            <td className='right'>10&nbsp;</td>
+                                            <td>Detecting Check</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>14th</td>
+                                            <td className='right'>+5&nbsp;</td>
+                                            <td className='right'>60</td>
+                                            <td className='right'>5th&nbsp;</td>
+                                            <td className='right'>10&nbsp;</td>
+                                            <td>--</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>15th</td>
+                                            <td className='right'>+5&nbsp;</td>
+                                            <td className='right'>64</td>
+                                            <td className='right'>6th&nbsp;</td>
+                                            <td className='right'>10&nbsp;</td>
+                                            <td>--</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>16th</td>
+                                            <td className='right'>+5&nbsp;</td>
+                                            <td className='right'>69</td>
+                                            <td className='right'>6th&nbsp;</td>
+                                            <td className='right'>10&nbsp;</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>17th</td>
+                                            <td className='right'>+6&nbsp;</td>
+                                            <td className='right'>73</td>
+                                            <td className='right'>6th&nbsp;</td>
+                                            <td className='right'>12&nbsp;</td>
+                                            <td>--</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>18th</td>
+                                            <td className='right'>+6&nbsp;</td>
+                                            <td className='right'>77</td>
+                                            <td className='right'>7th&nbsp;</td>
+                                            <td className='right'>12&nbsp;</td>
+                                            <td>Miasmasight</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>19th</td>
+                                            <td className='right'>+6&nbsp;</td>
+                                            <td className='right'>80</td>
+                                            <td className='right'>7th&nbsp;</td>
+                                            <td className='right'>12&nbsp;</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>20th</td>
+                                            <td className='right'>+6&nbsp;</td>
+                                            <td className='right'>85</td>
+                                            <td className='right'>7th&nbsp;</td>
+                                            <td className='right'>12&nbsp;</td>
+                                            <td>Swirling Learning</td>
+                                        </tr>
+                                    </tbody>
+                                </Table>
+                                </p>
                                 <h4>Hit Points</h4>
                                 <p>
                                     <b>Hit Dice: </b> 1d6 per Kaleido level <br></br>
@@ -376,7 +591,52 @@ const Kaleido = () => {
                             </div>
                         </Tab>
                         <Tab eventKey="smoke-origin" title="Smoke Origin">
+                            <div className='content'>
+                                <h3>Billowing Armory</h3>
+                                <p>Starting at 3rd level you gain proficiency in medium and heavy armor, as well as all martial weapons. You no longer require a free 
+                                hand for somatic spell components, you may use your weapon to fulfill them. </p>
+
+                                <h3>Drink Smoke</h3>
+                                <p>At 5th level, you can focus your powers of absorption further. When you use your Drain Vitality ability, you now heal the full 
+                                    amount of necrotic damage dealt by the weapon attack in Hit Points. </p>
+
+                                <h3>Swift Casting</h3>
+                                <p>Starting at 9th level, when casting a cantrip you may make a weapon attack as a bonus action. At 12th level, you can do this with 
+                                    any level spell.</p>
+
+                                <h3>Vapor Drain</h3>
+                                <p>Starting at 15th level, after using your Drain Vitality feature, you can spend MP to enter a trance-like state for a number of 
+                                    turns equal to your Intelligence modifier. During this time, your weapon attacks will always activate Drain Vitality. This costs 
+                                    an amount of MP equal to your Intelligence modifier. You can use this feature once per long rest.</p>
+                            </div>
                         </Tab>
+
+                        <Tab eventKey="mirrors-origin" title="Mirrors Origin">
+                            <div className='content'>
+                                <h3>Mirrored Learning</h3>
+                                <p>Starting at 3rd level you are able to more closely study the abilities of your fellow adventurers, allowing you to copy their class 
+                                    abilities. This would happen the same way as a normal Learning effect, except the ability gained is not a spell but a class feature. 
+                                    This would not work on a creature or character that does not have class features. You may only Learn one class feature at a time in 
+                                    this way, and it will take the place of one of your Traits.</p>
+
+                                <h3>Lightspeed</h3>
+                                <p>Your grace on the battlefield allows you to move at a higher speed. At 5th level, you gain proficiency in Dexterity saving throws. 
+                                    You also gain a +1 bonus to your AC and your base speed increases by 10 feet. </p>
+
+                                <h3>Distant Reflection</h3>
+                                <p>Starting at 9th level, you are able to use your Drain Vitality ability from a distance without making the associated weapon attack. 
+                                    When you do, you make a ranged spell attack on a target you can see within 60 feet. You still deal damage based on the damage dice 
+                                    of the weapon you are wielding. </p>
+
+                                <h3>Black Mirror</h3>
+                                <p>At 15th level, you gain the power to sense a spell before an enemy casts it and negate its effect. As a reaction to a spell being cast, 
+                                    you can use this ability to function as the spell Counterspell. You can also choose to use it to function as Dispel Magic. In order 
+                                    to upcast the spell, you must still expend MP, spending an amount equal to the MP difference between a 3rd level spell and the desired 
+                                    level. You can use this ability a number of times equal to your Intelligence modifier.</p>
+
+                            </div>
+                        </Tab>
+                        
                         <Tab eventKey="spell-list" title="Kaleido Spell List">
                             <div className='content'>
                             <h4>Kaleido Spells</h4>
@@ -1173,45 +1433,45 @@ const Kaleido = () => {
                                     </thead>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Petrify</td>
+                                            <td>?</td>
+                                            <td>1 Action</td>
+                                            <td>?</td>
+                                            <td>?</td>
+                                            <td>?</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
+                                            <p className='top'>When you cast this spell, you reproduce the effect of the Learning Action.</p>
+                                            <i><small>Prerequisite: 15th level; Learning target has an action that can turn a creature to stone.</small></i>
                                             
                                             </td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Ray</td>
+                                            <td>Evocation</td>
+                                            <td>1 Action</td>
+                                            <td>?</td>
+                                            <td>?</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
+                                            <p className='top'>You reproduce the ray ability of the Learning target.</p>
+                                            <i><small>Prerequisite: 15th level; Learning target has a ray ability.</small></i>
                                             </td>
                                         </tr>
                                     </tbody>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Truesight</td>
+                                            <td>Divination</td>
+                                            <td>1 Action</td>
+                                            <td>Self</td>
+                                            <td>Up to 1 Hour</td>
+                                            <td>V, S</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
@@ -1238,17 +1498,17 @@ const Kaleido = () => {
                                     </thead>
                                     <tbody>
                                         <tr onClick={onClickHandler}>
-                                            <td>Spell Name</td>
-                                            <td>School</td>
-                                            <td>Casting Time</td>
-                                            <td>Range</td>
-                                            <td>Duration</td>
-                                            <td>Components</td>
+                                            <td>Etherealness</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
+                                            <td>--</td>
                                         </tr>
                                         <tr className="collapse">
                                             <td colSpan="6">
-                                            <p className='top'>Description</p>
-                                            <i><small>Prerequisite:</small></i>
+                                            <p className='top'>You gain the Etherealness spell. It can only be cast on yourself. </p>
+                                            <i><small>Prerequisite: 18th level; Learning target has an Etherealness action or trait.</small></i>
                                             
                                             </td>
                                         </tr>
