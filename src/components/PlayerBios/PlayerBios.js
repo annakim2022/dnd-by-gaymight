@@ -28,7 +28,7 @@ function PlayerBios() {
                             <Card.Img className="anna-pp" variant="top" src={anna}/>
                         </Card.Body>
                         <Card.Body className='blurb'>
-                            <Card.Title>Anna (she/hers)</Card.Title>
+                            <Card.Title>Anna (she/her)</Card.Title>
                             <Card.Text className="entry">  
                                     <li>highest stat: STR (athletics)</li>
                                     <li>lowest stat: WIS (perception)</li>
@@ -84,7 +84,7 @@ function PlayerBios() {
                                
                                     <li>highest stat:</li>
                                     <li>lowest stat:</li>
-                                    <li>fun fact: obessed with yellow</li>
+                                    <li>fun fact: loves all things yellow</li>
                                 
                             </Card.Text>
                         </Card.Body>

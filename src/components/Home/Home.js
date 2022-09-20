@@ -17,10 +17,8 @@ const Home = () => {
                     alt="Second slide"
                     />
                     <Carousel.Caption>
-                    <h3>Hello Friends!</h3>
-                    <p><b>Check out the Homebrewed -&gt; Classes -&gt; Kaleido page! Construction is ~complete~ &nbsp;d( ≧ ∇ ≦ )</b></p>
-                    <p>Reminder: If you want your character sheets and backstories uploaded, send them to me! Images should be in jpeg format.</p>
-                    <h6>p.s. If you're here because you clicked a link that should've taken you somewhere else, that link prob doesn't work yet oop.</h6>
+                    <h3>Check out the Homebrewed -&gt; Classes -&gt; Kaleido page! Construction is ~complete~ &nbsp;d( ≧ ∇ ≦ )</h3><br></br>
+                    <p>note: all other races and classes will redirect back to home</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -30,26 +28,19 @@ const Home = () => {
                     alt="Second slide"
                     />
                     <Carousel.Caption>
-                    <h3>Pages That Have Things</h3>
-                    <h6>Home, Player Bios</h6>
-                    <h6>Yiu Lai: Character Sheets</h6>
-                    <h6>Aelith: Character Sheets</h6>
-                    <h6>Homebrewed: Races, Classes
-                    </h6>
+                    <h3>Session Summaries are TBA...</h3><br></br>
+                    <h6>Eventually, I will get around to consolidating all of my notes.</h6>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                {/* <Carousel.Item>
                     <img
                     className="carousel-img"
                     src={img}
                     alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <h3>Pages That Don't Have Things (Yet!)</h3>
-                    <h6>Yiu Lai: Session Summaries, NPCs, Random Lore</h6>
-                    <h6>Aelith: Session Summaries, NPCs, Random Lore</h6>
                     </Carousel.Caption>
-                </Carousel.Item>
+                </Carousel.Item> */}
             </Carousel>
         </div>
         </div>

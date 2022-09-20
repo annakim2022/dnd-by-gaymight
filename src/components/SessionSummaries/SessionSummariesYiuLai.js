@@ -1,8 +1,5 @@
 import React from 'react';
 import './SessionSummaries.css';
-import {
-    Link
-  } from 'react-router-dom'
 
 const SessionSummariesYiuLai = () => {
 

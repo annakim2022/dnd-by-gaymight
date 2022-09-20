@@ -2,7 +2,6 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Table from 'react-bootstrap/Table'
-import Accordion from 'react-bootstrap/Accordion';
 import './Classes.css'
 
 const Kaleido = () => {

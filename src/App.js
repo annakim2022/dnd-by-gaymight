@@ -45,8 +45,8 @@ function App() {
         <Navbar expanded={expanded} collapseOnSelect expand="md" bg="maroon" variant="dark" fixed="top">
           <Container fluid>
           <Navbar.Brand className="brand"> 
-              <img className="logo" src={logo}/>
-              D&D by Gaymnight
+              <img className="logo" src={logo} alt={"logo"}/>
+              D&amp;D by Gaymnight
           </Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -60,14 +60,14 @@ function App() {
               <NavDropdown title="Yiu Lai">
                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-character-sheets"}>Character Sheets</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-session-summaries"}><s>Session Summaries</s></NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-NPCs"}><s>NPCs</s></NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-random-lore"}><s>Random Lore</s></NavDropdown.Item>
+                {/* <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-NPCs"}><s>NPCs</s></NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-random-lore"}><s>Random Lore</s></NavDropdown.Item> */}
               </NavDropdown>
               <NavDropdown title="Aelith">
                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-character-sheets"}>Character Sheets</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-session-summaries"}><s>Session Summaries</s></NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-NPCs"}><s>NPCs</s></NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-random-lore"}><s>Random Lore</s></NavDropdown.Item>      
+                {/* <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-NPCs"}><s>NPCs</s></NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-random-lore"}><s>Random Lore</s></NavDropdown.Item>       */}
               </NavDropdown>
               <NavDropdown title="Homebrewed">
                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/homebrewed-races"}>Races</NavDropdown.Item>
