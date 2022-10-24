@@ -6,13 +6,13 @@ import Row from "react-bootstrap/Row"
 import { Link } from "react-router-dom"
 
 import img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/placeholder-image.png';
-import './HomebrewedClasses.css';
+import './Classes.css';
 
-const HomebrewedClasses = () => {
+const Classes = () => {
 
     return (
-        <div className='HomebrewedClasses'>
-            <h1 className='title'>Homebrewed Classes</h1>
+        <div className='page'>
+            <h1 className='title'>Classes</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
                     {/* <Col>
@@ -61,8 +61,9 @@ const HomebrewedClasses = () => {
                             </Card.Body>
                             <Card.Body>
                                 <Card.Title>Kaleido</Card.Title>
-                                <Card.Text>
-                                    eventually, a blurb...
+                                <Card.Text className='entry'>
+                                    Masters of mimicry with the inherent ability to touch and see the essence of living creatures, Kaleido can absorb the spells and
+                                    signature abilities of others, channeling them into their own magic and adding flair to truly make it their own.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -101,4 +102,4 @@ const HomebrewedClasses = () => {
 
 }
 
-export default HomebrewedClasses;
+export default Classes;

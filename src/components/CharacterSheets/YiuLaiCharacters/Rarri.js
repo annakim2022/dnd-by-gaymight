@@ -11,7 +11,7 @@ const Rarri = () => {
     return (
         <div className='CharacterSheets'>
             <div className='outer-box'>
-                <h2 className='class-name'>Rarri Pebblepocket</h2>
+                <h2 className='page-title'>Rarri Pebblepocket</h2>
                 <div className='box'>
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">

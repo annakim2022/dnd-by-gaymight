@@ -10,7 +10,7 @@ const Kepple = () => {
     return (
         <div className='CharacterSheets'>
             <div className='outer-box'>
-                <h2 className='class-name'>Kepple</h2>
+                <h2 className='page-title'>Kepple</h2>
                 <div className='box'>
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">

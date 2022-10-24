@@ -8,7 +8,7 @@ const Arsenalist = () => {
     return (
         <div className='Arsenalist'> 
             <div className='outer-box'>
-                <h2 className='class-name'>Arsenalist</h2>
+                <h2 className='page-title'>Arsenalist</h2>
                 <div className='box'> 
                     <Tabs defaultActiveKey='features'>
                         <Tab eventKey="features" title="Class Features">

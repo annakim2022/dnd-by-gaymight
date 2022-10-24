@@ -1,3 +1,14 @@
-.carousel-caption {
-    top: 15rem;
+.Home {
+    margin-top: 20px;
+}
+
+.carousel-text {
+    color: black;
+    font-size: larger;
+}
+
+.carousel-box {
+    border-radius: 10px;
+    background-color:rgba(246, 241, 235, 0.788);
+    padding: 15px;
 }

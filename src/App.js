@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
+
 import logo from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/dragon-logo.svg';
 
 import Home from './components/Home/Home'
@@ -13,8 +14,8 @@ import CharacterSheetsYiuLai from './components/CharacterSheets/YiuLaiCharacterS
 import CharacterSheetsAelith from './components/CharacterSheets/AelithCharacterSheets'
 import SessionSummariesYiuLai from './components/SessionSummaries/SessionSummariesYiuLai'
 import SessionSummariesAelith from './components/SessionSummaries/SessionSummariesAelith'
-import HomebrewedRaces from './components/Homebrewed/Races/HomebrewedRaces'
-import HomebrewedClasses from './components/Homebrewed/Classes/HomebrewedClasses'
+import Races from './components/Homebrewed/Races/Races'
+import Classes from './components/Homebrewed/Classes/Classes'
 
 import Kaleido from './components/Homebrewed/Classes/Kaleido'
 
@@ -101,10 +102,10 @@ function App() {
 
           <Route exact path='/yiu-lai-session-summaries' element={<SessionSummariesYiuLai/>}> </Route>
           <Route exact path='/aelith-session-summaries' element={<SessionSummariesAelith/>}> </Route>
-          <Route exact path='/homebrewed-races' element={<HomebrewedRaces/>}> </Route>
+          <Route exact path='/homebrewed-races' element={<Races/>}> </Route>
               <Route exact path='/animated' element={<Animated/>}> </Route>
 
-          <Route exact path='/homebrewed-classes' element={<HomebrewedClasses/>}> </Route>
+          <Route exact path='/homebrewed-classes' element={<Classes/>}> </Route>
               <Route exact path='/kaleido' element={<Kaleido/>}> </Route>
         </Routes>
       </div>

@@ -14,9 +14,17 @@
   width: 35px;
 }
 
-.title{
-  margin-left: 15px;
+.title {
+  margin-left: 20px;
   margin-bottom: 15px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.page {
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .box {
@@ -36,6 +44,6 @@
 
 @media screen and (max-width: 576px) {
   .content {
-    font-size:small;
+    font-size: small;
   }
 }

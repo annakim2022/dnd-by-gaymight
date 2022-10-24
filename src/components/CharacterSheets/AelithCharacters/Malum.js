@@ -11,7 +11,7 @@ const Malum = () => {
     return (
         <div className='CharacterSheets'>
             <div className='outer-box'>
-                <h2 className='class-name'>Malum</h2>
+                <h2 className='page-title'>Malum</h2>
                 <div className='box'>
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">

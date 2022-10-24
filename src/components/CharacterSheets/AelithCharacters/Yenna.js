@@ -10,7 +10,7 @@ const Yenna = () => {
     return (
         <div className='CharacterSheets'>
             <div className='outer-box'>
-                <h2 className='class-name'>Yenna</h2>
+                <h2 className='page-title'>Yenna</h2>
                 <div className='box'>
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">

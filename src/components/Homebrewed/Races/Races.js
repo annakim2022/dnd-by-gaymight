@@ -5,13 +5,13 @@ import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
 import { Link } from 'react-router-dom';
 import img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/placeholder-image.png';
-import './HomebrewedRaces.css';
+import './Races.css';
 
-const HomebrewedRaces = () => {
+const Races = () => {
 
     return (
-        <div className='HomebrewedRaces'>
-            <h1 className='title'>Homebrewed Races</h1>
+        <div className='page'>
+            <h1 className='title'>Races</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
                     {/* <Col>
@@ -280,4 +280,4 @@ const HomebrewedRaces = () => {
     )
 }
 
-export default HomebrewedRaces;
+export default Races;

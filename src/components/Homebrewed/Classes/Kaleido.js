@@ -2,7 +2,6 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Table from 'react-bootstrap/Table'
-import './Classes.css'
 
 const Kaleido = () => {
 
@@ -14,7 +13,7 @@ const Kaleido = () => {
     return (
         <div className='Kaleido'> 
             <div className='outer-box'>
-                <h2 className='class-name'>Kaleido</h2>
+                <h2 className='page-title'>Kaleido</h2>
                 <div className='box'>        
                     <Tabs defaultActiveKey='features'>
                         <Tab eventKey="features" title="Class Features">

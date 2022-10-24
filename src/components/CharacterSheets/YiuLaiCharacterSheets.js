@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
 import { Link } from "react-router-dom"
 import './CharacterSheets.css';
+
 import rarri_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/rarri-img.jpeg';
 import kepple_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kepple-img.jpeg';
 import kizah_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kizah-img.JPG'
@@ -17,7 +18,7 @@ import vdolfnir_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/
 const CharacterSheetsYiuLai = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <h1 className='title'>Yiu Lai Character Sheets</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>

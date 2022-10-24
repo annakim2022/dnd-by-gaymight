@@ -15,11 +15,10 @@ import ella from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/componen
 
 import './PlayerBios.css';
 
-
 function PlayerBios() {
 
     return (
-        <div className='PlayerBios'>
+        <div className='page'>
             <h1 className='title'>PlayerBios</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
@@ -55,8 +54,8 @@ function PlayerBios() {
                                 <Card.Title>Cal (he/him/she/her)</Card.Title>
                                 <Card.Text className="entry">
 
-                                    <li>highest stat:</li>
-                                    <li>lowest stat:</li>
+                                    <li>highest stat: INT (investigation)</li>
+                                    <li>lowest stat: STR (athletics)</li>
                                     <li>fun fact: 16 hour time difference</li>
 
                                 </Card.Text>
@@ -83,8 +82,8 @@ function PlayerBios() {
                                 <Card.Title>Daniel (he/him)</Card.Title>
                                 <Card.Text className="entry">
 
-                                    <li>highest stat:</li>
-                                    <li>lowest stat:</li>
+                                    <li>highest stat: WIS (insight)</li>
+                                    <li>lowest stat: CHA (deception)</li>
                                     <li>fun fact: loves all things yellow</li>
 
                                 </Card.Text>
