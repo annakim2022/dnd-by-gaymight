@@ -2,20 +2,20 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Image from 'react-bootstrap/Image'
-import '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/CharacterSheets/CharacterSheets.css';
-import vdolfnir from './vdolfnir-img.jpeg'
 
-const Vdolfnir = () => {
+import kepple from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kepple-img.jpeg'
+
+const Kepple = () => {
 
     return (
         <div className='CharacterSheets'>
             <div className='outer-box'>
-                <h2 className='class-name'>Vðolfnir</h2>
-                <div className='box'> 
+                <h2 className='class-name'>Kepple</h2>
+                <div className='box'>
                     <Tabs defaultActiveKey='character-art'>
                         <Tab eventKey="character-art" title="Character Art">
                             <div className='content'>
-                            <Image fluid className='character-art' src={vdolfnir}></Image>
+                                <Image fluid className='character-art' src={kepple}></Image>
                             </div>
                         </Tab>
                         <Tab eventKey="character-sheet" title="Character Sheet">
@@ -26,15 +26,15 @@ const Vdolfnir = () => {
                         </Tab>
                         <Tab eventKey="background" title="Background">
                             <div className='content'>
-                            <h4>Pre-Campaign</h4>
+                                <h4>Pre-Campaign</h4>
                                 TBD...
                             </div>
                         </Tab>
                     </Tabs>
                 </div>
-            </div>   
+            </div>
         </div>
     )
 }
 
-export default Vdolfnir;
+export default Kepple;

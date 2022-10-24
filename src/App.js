@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import logo from './dragon-logo.svg';
+import logo from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/dragon-logo.svg';
 
 import Home from './components/Home/Home'
 import PlayerBios from './components/PlayerBios/PlayerBios';
@@ -20,20 +20,20 @@ import Kaleido from './components/Homebrewed/Classes/Kaleido'
 
 import Animated from './components/Homebrewed/Races/Animated'
 
-import Aravala from './components/CharacterSheets/AelithCharacters/Aravala/Aravala';
-import Malum from './components/CharacterSheets/AelithCharacters/Malum/Malum';
-import Shiver from './components/CharacterSheets/AelithCharacters/Shiver/Shiver';
-import Naomi from './components/CharacterSheets/AelithCharacters/Naomi/Naomi';
-import Yenna from './components/CharacterSheets/AelithCharacters/Yenna/Yenna';
-import Valista from './components/CharacterSheets/AelithCharacters/Valista/Valista';
+import Aravala from './components/CharacterSheets/AelithCharacters/Aravala';
+import Malum from './components/CharacterSheets/AelithCharacters/Malum';
+import Shiver from './components/CharacterSheets/AelithCharacters/Shiver';
+import Naomi from './components/CharacterSheets/AelithCharacters/Naomi';
+import Yenna from './components/CharacterSheets/AelithCharacters/Yenna';
+import Valista from './components/CharacterSheets/AelithCharacters/Valista';
 
 
-import Rarri from './components/CharacterSheets/YiuLaiCharacters/Rarri/Rarri';
-import Haze from './components/CharacterSheets/YiuLaiCharacters/Haze/Haze'
-import Kepple from './components/CharacterSheets/YiuLaiCharacters/Kepple/Kepple'
-import Kizah from './components/CharacterSheets/YiuLaiCharacters/Kizah/Kizah'
-import Ssashira from './components/CharacterSheets/YiuLaiCharacters/Ssashira/Ssashira'
-import Vdolfnir from './components/CharacterSheets/YiuLaiCharacters/Vdolfnir/Vdolfnir'
+import Rarri from './components/CharacterSheets/YiuLaiCharacters/Rarri';
+import Haze from './components/CharacterSheets/YiuLaiCharacters/Haze'
+import Kepple from './components/CharacterSheets/YiuLaiCharacters/Kepple'
+import Kizah from './components/CharacterSheets/YiuLaiCharacters/Kizah'
+import Ssashira from './components/CharacterSheets/YiuLaiCharacters/Ssashira'
+import Vdolfnir from './components/CharacterSheets/YiuLaiCharacters/Vdolfnir'
 
 function App() {
 

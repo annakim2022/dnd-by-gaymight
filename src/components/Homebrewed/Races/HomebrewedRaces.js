@@ -4,14 +4,14 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
 import { Link } from 'react-router-dom';
-import img from './placeholder-image.png';
+import img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/placeholder-image.png';
 import './HomebrewedRaces.css';
 
 const HomebrewedRaces = () => {
 
     return (
         <div className='HomebrewedRaces'>
-            <h1 className='title'>Homebrewed Races!</h1> 
+            <h1 className='title'>Homebrewed Races</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
                     {/* <Col>
@@ -129,8 +129,8 @@ const HomebrewedRaces = () => {
                                     goes to home page
                                 </Card.Text>
                             </Card.Body>
-                        </Card> 
-                    </Col> 
+                        </Card>
+                    </Col>
                     {/* <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
@@ -155,8 +155,8 @@ const HomebrewedRaces = () => {
                                     goes to home page
                                 </Card.Text>
                             </Card.Body>
-                        </Card> 
-                    </Col> 
+                        </Card>
+                    </Col>
                     <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
@@ -168,8 +168,8 @@ const HomebrewedRaces = () => {
                                     goes to home page
                                 </Card.Text>
                             </Card.Body>
-                        </Card> 
-                    </Col> 
+                        </Card>
+                    </Col>
                     <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
@@ -181,8 +181,8 @@ const HomebrewedRaces = () => {
                                     goes to home page
                                 </Card.Text>
                             </Card.Body>
-                        </Card> 
-                    </Col> 
+                        </Card>
+                    </Col>
                     {/* <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
@@ -275,7 +275,7 @@ const HomebrewedRaces = () => {
                         </Card> 
                     </Col>  */}
                 </Row>
-            </Container>     
+            </Container>
         </div>
     )
 }
