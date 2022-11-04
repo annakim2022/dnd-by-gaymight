@@ -8,7 +8,7 @@ import kizah from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/compone
 const Kizah = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Kizah</h2>
                 <div className='box'>

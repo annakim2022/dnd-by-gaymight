@@ -11,7 +11,7 @@ const Kaleido = () => {
     };
 
     return (
-        <div className='Kaleido'> 
+        <div className='page'> 
             <div className='outer-box'>
                 <h2 className='page-title'>Kaleido</h2>
                 <div className='box'>        

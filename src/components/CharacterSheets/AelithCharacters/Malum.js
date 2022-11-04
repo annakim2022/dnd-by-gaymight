@@ -9,7 +9,7 @@ import malum_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/com
 const Malum = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Malum</h2>
                 <div className='box'>

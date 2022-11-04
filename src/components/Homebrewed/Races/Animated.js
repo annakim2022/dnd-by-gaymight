@@ -6,7 +6,7 @@ import './Races.css';
 const Animated = () => {
 
     return (
-        <div className='Animated'> 
+        <div className='page'> 
             <div className='outer-box'>
                 <h2 className='race-name'>Animated</h2>
                 <div className='box'> 

@@ -8,7 +8,7 @@ import vdolfnir from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/comp
 const Vdolfnir = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Vðolfnir</h2>
                 <div className='box'>

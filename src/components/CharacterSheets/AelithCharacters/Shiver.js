@@ -11,7 +11,7 @@ import shiver_img2 from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/c
 const Shiver = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Shiver</h2>
                 <div className='box'>

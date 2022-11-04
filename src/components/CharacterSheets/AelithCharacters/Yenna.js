@@ -8,7 +8,7 @@ import yenna_headshot from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/sr
 const Yenna = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Yenna</h2>
                 <div className='box'>

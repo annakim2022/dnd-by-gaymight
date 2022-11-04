@@ -9,7 +9,7 @@ import haze from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/componen
 const Haze = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Haze</h2>
                 <div className='box'>

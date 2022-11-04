@@ -9,7 +9,7 @@ import rarri_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/com
 const Rarri = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Rarri Pebblepocket</h2>
                 <div className='box'>

@@ -8,7 +8,7 @@ import ssashira from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/comp
 const Ssashira = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Ssashira</h2>
                 <div className='box'>

@@ -8,7 +8,7 @@ import naomi_headshot from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/sr
 const Naomi = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Naomi</h2>
                 <div className='box'>

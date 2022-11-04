@@ -1,14 +1,63 @@
 .Home {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
-.carousel-text {
-    color: black;
-    font-size: larger;
+.main {
+    font-size: x-large;
+}
+
+.sub {
+    font-size: large;
 }
 
 .carousel-box {
     border-radius: 10px;
     background-color:rgba(246, 241, 235, 0.788);
     padding: 15px;
+    color: black;
 }
+
+@media (max-width: 480px) {
+    .main {
+        font-size: x-small;
+    } 
+    .sub{
+        font-size: xx-small;
+    }
+    .carousel-box {
+        padding: 5px;
+    }
+  }
+
+/* @media (max-width: 600px) {
+    .main {
+        font-size: small;
+    } 
+    .sub{
+        font-size: x-small;
+    }
+    .carousel-box {
+        padding: 10px;
+    }
+  } */
+
+@media (max-width: 800px) {
+    .main {
+        font-size: medium;
+    } 
+    .sub{
+        font-size: small;
+    }
+    .carousel-box {
+        padding: 10px;
+    }
+}
+
+/* @media (max-width: 1280px) {
+    .main {
+        font-size: large;
+    } 
+    .sub{
+        font-size: medium;
+    }
+} */

@@ -6,7 +6,7 @@ import Tab from 'react-bootstrap/Tab'
 const Arsenalist = () => {
 
     return (
-        <div className='Arsenalist'> 
+        <div className='page'> 
             <div className='outer-box'>
                 <h2 className='page-title'>Arsenalist</h2>
                 <div className='box'> 

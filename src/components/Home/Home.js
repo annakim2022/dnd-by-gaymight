@@ -15,10 +15,10 @@ const Home = () => {
                         src={img}
                         alt="Second slide"
                     />
-                    <Carousel.Caption className='carousel-text'>
+                    <Carousel.Caption>
                         <div className='carousel-box'>
-                            <h3>Check out the Homebrewed -&gt; Classes -&gt; Kaleido page! Construction is ~complete~ &nbsp;d( ≧ ∇ ≦ )</h3><br></br>
-                            note: all other races and classes will redirect back to home
+                            <p className='main'>Check out the Homebrewed -&gt; Classes -&gt; Kaleido page! Construction is ~complete~ &nbsp;d( ≧ ∇ ≦ )</p>
+                            <p className='sub'>note: all other races and classes will redirect back to home</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -29,10 +29,10 @@ const Home = () => {
                         src={img}
                         alt="Second slide"
                     />
-                    <Carousel.Caption className='carousel-text'>
+                    <Carousel.Caption>
                         <div div className='carousel-box'>
-                            <h3>Session Summaries are TBA...</h3><br></br>
-                            Eventually, I will get around to consolidating all of my notes.
+                            <p className='main'>Session Summaries are TBA...</p>
+                            <p className='sub'>Eventually, I will get around to consolidating all of my notes.</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

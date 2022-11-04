@@ -27,9 +27,9 @@ const CharacterSheetsYiuLai = () => {
                             <Card.Body as={Link} to={'/haze'}>
                                 <Card.Img className='preview-img' variant="top" src={haze_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Haze</Card.Title>
-                                <Card.Text>
+                                <Card.Text className='entry'>
 
                                 </Card.Text>
                             </Card.Body>
@@ -40,9 +40,9 @@ const CharacterSheetsYiuLai = () => {
                             <Card.Body as={Link} to={'/kizah'}>
                                 <Card.Img className='preview-img' variant="top" src={kizah_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Ki'zah</Card.Title>
-                                <Card.Text>
+                                <Card.Text className='entry'>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -52,9 +52,9 @@ const CharacterSheetsYiuLai = () => {
                             <Card.Body as={Link} to={'/kepple'}>
                                 <Card.Img className='preview-img' variant="top" src={kepple_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Kepple</Card.Title>
-                                <Card.Text>
+                                <Card.Text className='entry'>
 
                                 </Card.Text>
                             </Card.Body>
@@ -65,10 +65,12 @@ const CharacterSheetsYiuLai = () => {
                             <Card.Body as={Link} to={'/rarri-pebblepocket'}>
                                 <Card.Img className='rarri-preview' variant="top" src={rarri_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Rarri Pebblepocket</Card.Title>
-                                <Card.Text>
-
+                                <Card.Text className='entry'>
+                                    Along the cobblestone road of the city plaza, the rhythmic clanking of metallic footsteps turns heads. Atop a large mechanical
+                                    dragon with brilliant ruby eyes and folding wings that haven’t yet been perfected to achieve their end goal of flight, sits an
+                                    ingenious yet naive gnome girl with a bright smile and messy redish hair.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -78,9 +80,9 @@ const CharacterSheetsYiuLai = () => {
                             <Card.Body as={Link} to={'/ssashira'}>
                                 <Card.Img className='preview-img' variant="top" src={ssashira_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Ssashira</Card.Title>
-                                <Card.Text>
+                                <Card.Text className='entry'>
 
                                 </Card.Text>
                             </Card.Body>
@@ -91,9 +93,9 @@ const CharacterSheetsYiuLai = () => {
                             <Card.Body as={Link} to={'/vdolfnir'}>
                                 <Card.Img className='preview-img' variant="top" src={vdolfnir_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Viðolfnir</Card.Title>
-                                <Card.Text>
+                                <Card.Text className='entry'>
 
                                 </Card.Text>
                             </Card.Body>

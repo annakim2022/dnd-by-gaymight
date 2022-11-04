@@ -32,7 +32,6 @@ function PlayerBios() {
                                 <Card.Text className="entry">
                                     <li>highest stat: STR (athletics)</li>
                                     <li>lowest stat: WIS (perception)</li>
-                                    <li>fun fact: made this website</li>
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup>
@@ -56,7 +55,6 @@ function PlayerBios() {
 
                                     <li>highest stat: INT (investigation)</li>
                                     <li>lowest stat: STR (athletics)</li>
-                                    <li>fun fact: 16 hour time difference</li>
 
                                 </Card.Text>
                             </Card.Body>
@@ -82,9 +80,8 @@ function PlayerBios() {
                                 <Card.Title>Daniel (he/him)</Card.Title>
                                 <Card.Text className="entry">
 
-                                    <li>highest stat: WIS (insight)</li>
-                                    <li>lowest stat: CHA (deception)</li>
-                                    <li>fun fact: loves all things yellow</li>
+                                    <li>highest stat: INT (insight)</li>
+                                    <li>lowest stat: CHA (intimidation)</li>
 
                                 </Card.Text>
                             </Card.Body>
@@ -109,7 +106,6 @@ function PlayerBios() {
 
                                     <li>highest stat: CHA (persuasion)</li>
                                     <li>lowest stat: CON</li>
-                                    <li>fun fact: has too much kombucha</li>
 
                                 </Card.Text>
                             </Card.Body>
@@ -134,7 +130,6 @@ function PlayerBios() {
 
                                     <li>highest stat: CHA (persuasion)</li>
                                     <li>lowest stat: WIS (insight)</li>
-                                    <li>fun fact: plays frisbee with pros</li>
 
                                 </Card.Text>
                             </Card.Body>
@@ -159,7 +154,6 @@ function PlayerBios() {
 
                                     <li>highest stat:</li>
                                     <li>lowest stat:</li>
-                                    <li>fun fact: our lovely DM!</li>
 
                                 </Card.Text>
                             </Card.Body>

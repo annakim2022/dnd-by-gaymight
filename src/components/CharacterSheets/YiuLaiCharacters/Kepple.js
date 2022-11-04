@@ -8,7 +8,7 @@ import kepple from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/compon
 const Kepple = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Kepple</h2>
                 <div className='box'>

@@ -30,8 +30,7 @@ const CharacterSheetsAelith = () => {
                                 <Card.Title>Aravala Amonodel</Card.Title>
                                 <Card.Text className='entry'>
                                     A young forest elf gives up her priviledged life in the deep woods to hunt down the elemental cult of evil that ravaged her lands. Her 
-                                    warm silver eyes mark a stark contrast to her dark leather armor, flowing black hair, and numerous piercings. Blink and you might find
-                                    an animal in the place of the woman you were just speaking with.
+                                    warm silver eyes mark a stark contrast to her dark leather armor and flowing black hair. Blink and you'll find an animal in the place of the woman you were just speaking with.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -41,10 +40,12 @@ const CharacterSheetsAelith = () => {
                             <Card.Body as={Link} to={'/malum'}>
                                 <Card.Img className='preview-img' variant="top" src={malum_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Malum</Card.Title>
-                                <Card.Text>
-                                    Cal is writing he swears.
+                                <Card.Text className='entry'>
+                                There's a legend of a cryptid creature that stalks beyond the dappled forest brush: a centaur with a deer head! Supposedly, he dons a 
+                                silver breastplate etched an ancient god’s symbol, one not written about in any scripture...that is until an uncouth youth fitting the 
+                                description stumbles out of the forest.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -54,7 +55,7 @@ const CharacterSheetsAelith = () => {
                             <Card.Body as={Link} to={'/naomi'}>
                                 <Card.Img className='preview-img' variant="top" src={naomi_headshot} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Naomi</Card.Title>
                                 <Card.Text className='entry'>
                                 A beautiful Aasimar girl prostrates before a male statue etched with the sun and crescent moon, a matching locket around her neck. But when
@@ -68,7 +69,7 @@ const CharacterSheetsAelith = () => {
                             <Card.Body as={Link} to={'/shiver'}>
                                 <Card.Img className='preview-img' variant="top" src={shiver_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Shiver</Card.Title>
                                 <Card.Text className='entry'>
                                 Atop the rickety rafters of a cobblestone church, eerie noises spill from the beak of a cloaked figure: laughter, cats hissing, organ playing. Her 
@@ -82,7 +83,7 @@ const CharacterSheetsAelith = () => {
                             <Card.Body as={Link} to={'/valista'}>
                                 <Card.Img className='preview-img' variant="top" src={valista_img} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Valista</Card.Title>
                                 <Card.Text className='entry'>
                                 A purple Tiefling clad in a hackneyed red coat stealthily pickpockets passersby until a stranger does the same to her: leaving something behind instead 
@@ -96,7 +97,7 @@ const CharacterSheetsAelith = () => {
                             <Card.Body as={Link} to={'/yenna'}>
                                 <Card.Img className="preview-img" variant="top" src={yenna_headshot} />
                             </Card.Body>
-                            <Card.Body>
+                            <Card.Body className='blurb'>
                                 <Card.Title>Yenna</Card.Title>
                                 <Card.Text className='entry'>
                                 A young Half-Orc sits in lotus pose atop the head of a ginormous toppled statue, only their right palm turned upwards on their knee. Their yellow garb 

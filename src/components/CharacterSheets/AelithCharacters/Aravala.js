@@ -10,7 +10,7 @@ import aravala_headshot from "/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/
 const Aravala = () => {
 
     return (
-        <div className='CharacterSheets'>
+        <div className='page'>
             <div className='outer-box'>
                 <h2 className='page-title'>Aravala Amonodel</h2>
                 <div className='box'>
