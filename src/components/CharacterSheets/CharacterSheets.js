@@ -6,6 +6,13 @@ import Row from "react-bootstrap/Row"
 import { Link } from "react-router-dom"
 import './CharacterSheets.css';
 
+import rarri_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/rarri-img.jpeg';
+import kepple_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kepple-img.jpeg';
+import haze_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/haze-img.jpg';
+import ssashira_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/ssashira-img.jpeg';
+import vdolfnir_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/vdolfnir-img.jpeg';
+
+
 import shiver_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/shiver-img.jpeg'
 import malum_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/malum-img.jpeg'
 import aravala_headshot from "/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/aravala_headshot.jpg"
@@ -13,14 +20,82 @@ import naomi_headshot from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/sr
 import yenna_headshot from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/yenna_headshot.jpg'
 
 
-const CharacterSheetsAelith = () => {
+const CharacterSheetsYiuLai = () => {
 
     return (
         <div className='page'>
             <div className='card-box'>
-            <h1 className='title'>Aelith Character Sheets</h1>
+            <h1 className='title'>Characters</h1>
             <Container fluid>
-                <Row xs={1} sm={2} lg={3}>
+                <Row xs={1} sm={2} lg={3} className='row'>
+                    <Col className='col'>
+                        <Card className='preview-card'>
+                            <Card.Body as={Link} to={'/haze'}>
+                                <Card.Img className='preview-img' variant="top" src={haze_img} />
+                            </Card.Body>
+                            <Card.Body className='blurb'>
+                                <Card.Title>Haze</Card.Title>
+                                <Card.Text className='entry'>
+
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                   
+                    <Col>
+                        <Card className='preview-card'>
+                            <Card.Body as={Link} to={'/kepple'}>
+                                <Card.Img className='preview-img' variant="top" src={kepple_img} />
+                            </Card.Body>
+                            <Card.Body className='blurb'>
+                                <Card.Title>Kepple</Card.Title>
+                                <Card.Text className='entry'>
+
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className='preview-card'>
+                            <Card.Body as={Link} to={'/rarri-pebblepocket'}>
+                                <Card.Img className='preview-img' variant="top" src={rarri_img} />
+                            </Card.Body>
+                            <Card.Body className='blurb'>
+                                <Card.Title>Rarri Pebblepocket</Card.Title>
+                                <Card.Text className='entry'>
+                                    Along the cobblestone road of the city plaza, the rhythmic clanking of metallic footsteps turns heads. Atop a large mechanical
+                                    dragon with brilliant ruby eyes and folding wings that haven’t yet been perfected to achieve their end goal of flight, sits an
+                                    ingenious yet naive gnome girl with a bright smile and messy redish hair.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className='preview-card'>
+                            <Card.Body as={Link} to={'/ssashira'}>
+                                <Card.Img className='preview-img' variant="top" src={ssashira_img} />
+                            </Card.Body>
+                            <Card.Body className='blurb'>
+                                <Card.Title>Ssashira</Card.Title>
+                                <Card.Text className='entry'>
+
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className='preview-card'>
+                            <Card.Body as={Link} to={'/vdolfnir'}>
+                                <Card.Img className='preview-img' variant="top" src={vdolfnir_img} />
+                            </Card.Body>
+                            <Card.Body className='blurb'>
+                                <Card.Title>Viðolfnir</Card.Title>
+                                <Card.Text className='entry'>
+
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                     <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/aravala-amonodel'}>
@@ -97,8 +172,7 @@ const CharacterSheetsAelith = () => {
             </Container>
         </div>
         </div>
-
     )
 }
 
-export default CharacterSheetsAelith;
+export default CharacterSheetsYiuLai;

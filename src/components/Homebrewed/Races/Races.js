@@ -119,7 +119,7 @@ const Races = () => {
                             </Card.Body>
                         </Card> 
                     </Col>  */}
-                    <Col>
+                    {/* <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
@@ -131,7 +131,7 @@ const Races = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
+                    </Col> */}
                     {/* <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
@@ -145,7 +145,7 @@ const Races = () => {
                             </Card.Body>
                         </Card> 
                     </Col>  */}
-                    <Col>
+                    {/* <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
@@ -157,8 +157,8 @@ const Races = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col>
+                    </Col> */}
+                    {/* <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>
                                 <Card.Img variant="top" src={img} />
@@ -183,7 +183,7 @@ const Races = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
+                    </Col> */}
                     {/* <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/'}>

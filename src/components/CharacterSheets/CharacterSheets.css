@@ -14,8 +14,8 @@
     object-position: 0px -25px;
 } */
 
-/* .preview-img{
+.preview-img{
     height: 300px;
     object-fit: cover;
-    object-position: top;
-} */
+    object-position: 50% 10%;
+}

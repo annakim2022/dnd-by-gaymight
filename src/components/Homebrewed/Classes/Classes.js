@@ -84,7 +84,7 @@ const Classes = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    {/* <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/prophet'}>
                                 <Card.Img variant="top" src={img} />
@@ -96,7 +96,7 @@ const Classes = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
             </div>

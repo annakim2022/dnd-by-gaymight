@@ -10,10 +10,10 @@ import logo from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/componen
 
 import Home from './components/Home/Home'
 import PlayerBios from './components/PlayerBios/PlayerBios';
-import CharacterSheetsYiuLai from './components/CharacterSheets/YiuLaiCharacterSheets'
-import CharacterSheetsAelith from './components/CharacterSheets/AelithCharacterSheets'
-import SessionSummariesYiuLai from './components/SessionSummaries/SessionSummariesYiuLai'
-import SessionSummariesAelith from './components/SessionSummaries/SessionSummariesAelith'
+import CharacterSheetsYiuLai from './components/CharacterSheets/CharacterSheets'
+// import CharacterSheetsAelith from './components/CharacterSheets/AelithCharacterSheets'
+import Campaigns from './components/Campaigns/Campaigns'
+// import SessionSummariesAelith from './components/Campaigns/Campaigns'
 import Races from './components/Homebrewed/Races/Races'
 import Classes from './components/Homebrewed/Classes/Classes'
 
@@ -21,18 +21,18 @@ import Kaleido from './components/Homebrewed/Classes/Kaleido'
 
 import Animated from './components/Homebrewed/Races/Animated'
 
-import Aravala from './components/CharacterSheets/AelithCharacters/Aravala';
-import Malum from './components/CharacterSheets/AelithCharacters/Malum';
-import Shiver from './components/CharacterSheets/AelithCharacters/Shiver';
-import Naomi from './components/CharacterSheets/AelithCharacters/Naomi';
-import Yenna from './components/CharacterSheets/AelithCharacters/Yenna';
+import Aravala from './components/CharacterSheets/Aravala';
+import Malum from './components/CharacterSheets/Malum';
+import Shiver from './components/CharacterSheets/Shiver';
+import Naomi from './components/CharacterSheets/Naomi';
+import Yenna from './components/CharacterSheets/Yenna';
 
 
-import Rarri from './components/CharacterSheets/YiuLaiCharacters/Rarri';
-import Haze from './components/CharacterSheets/YiuLaiCharacters/Haze'
-import Kepple from './components/CharacterSheets/YiuLaiCharacters/Kepple'
-import Ssashira from './components/CharacterSheets/YiuLaiCharacters/Ssashira'
-import Vdolfnir from './components/CharacterSheets/YiuLaiCharacters/Vdolfnir'
+import Rarri from './components/CharacterSheets/Rarri';
+import Haze from './components/CharacterSheets/Haze'
+import Kepple from './components/CharacterSheets/Kepple'
+import Ssashira from './components/CharacterSheets/Ssashira'
+import Vdolfnir from './components/CharacterSheets/Vdolfnir'
 
 function App() {
 
@@ -56,10 +56,10 @@ function App() {
               <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/player-bios"}>
                 Players
               </Nav.Link>   
-              <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-character-sheets"}>
+              <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/characters"}>
                 Characters
               </Nav.Link>   
-              <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/aelith-character-sheets"}>
+              <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/campaigns"}>
                 Campaigns
               </Nav.Link> 
               <NavDropdown title="Homebrewed">
@@ -89,22 +89,22 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>}> </Route>
           <Route exact path='/player-bios' element={<PlayerBios/>}> </Route>
-          <Route exact path='/yiu-lai-character-sheets' element={<CharacterSheetsYiuLai/>}> </Route>
+          <Route exact path='/characters' element={<CharacterSheetsYiuLai/>}> </Route>
               <Route exact path='/haze' element={<Haze/>}> </Route>
               <Route exact path='/kepple' element={<Kepple/>}> </Route>
               <Route exact path='/rarri-pebblepocket' element={<Rarri/>}></Route>
               <Route exact path='/ssashira' element={<Ssashira/>}></Route>
               <Route exact path='/vdolfnir' element={<Vdolfnir/>}></Route>
-
-          <Route exact path='/aelith-character-sheets' element={<CharacterSheetsAelith/>}> </Route>
               <Route exact path='/aravala-amonodel' element={<Aravala/>}> </Route>
               <Route exact path='/malum' element={<Malum/>}> </Route>
               <Route exact path='/shiver' element={<Shiver/>}> </Route>
               <Route exact path='/naomi' element={<Naomi/>}> </Route>
               <Route exact path='/yenna' element={<Yenna/>}> </Route>
-
+          <Route exact path='/campaigns' element={<Campaigns/>}> </Route>
+        {/* 
+          <Route exact path='/aelith-character-sheets' element={<CharacterSheetsAelith/>}> </Route>
           <Route exact path='/yiu-lai-session-summaries' element={<SessionSummariesYiuLai/>}> </Route>
-          <Route exact path='/aelith-session-summaries' element={<SessionSummariesAelith/>}> </Route>
+          <Route exact path='/aelith-session-summaries' element={<SessionSummariesAelith/>}> </Route> */}
           <Route exact path='/homebrewed-races' element={<Races/>}> </Route>
               <Route exact path='/animated' element={<Animated/>}> </Route>
 
