@@ -2,6 +2,7 @@ import React from 'react';
 import './Classes.css';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
+import Table from 'react-bootstrap/Table'
 
 const Arsenalist = () => {
 
@@ -13,6 +14,179 @@ const Arsenalist = () => {
                     <Tabs defaultActiveKey='features'>
                         <Tab eventKey="features" title="Class Features">
                             <div className='content'>
+                            <h3>The Arsenalist Table </h3>
+                                <p>
+                                <Table responsive bordered size="sm" className='md-table'>
+                                    <thead className='thead'>
+                                        <tr>
+                                            <th>Level</th>
+                                            <th>Proficiency Bonus</th>
+                                            <th>Arsenal Points&nbsp;&nbsp;</th>
+                                            <th>Features</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1st</td>
+                                            <td className='right'>+2&nbsp;</td>
+                                            <td className='right'>3</td>
+                                            <td>Activated Arsenal</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>2nd</td>
+                                            <td className='right'>+2&nbsp;</td>
+                                            <td className='right'>3</td>
+                                            <td>Fighting Style</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>3rd</td>
+                                            <td className='right'>+2&nbsp;</td>
+                                            <td className='right'>4</td>
+                                            <td>Arsenal Tactics</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>4th</td>
+                                            <td className='right'>+2&nbsp;</td>
+                                            <td className='right'>4</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>5th</td>
+                                            <td className='right'>+3&nbsp;</td>
+                                            <td className='right'>4</td>
+                                            <td>Bladesurge</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>6th</td>
+                                            <td className='right'>+3&nbsp;</td>
+                                            <td className='right'>5</td>
+                                            <td>Streamlining</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>7th</td>
+                                            <td className='right'>+3&nbsp;</td>
+                                            <td className='right'>5</td>
+                                            <td>Resilience, Arsenal Tactics Feature</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>8th</td>
+                                            <td className='right'>+3&nbsp;</td>
+                                            <td className='right'>5</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>9th</td>
+                                            <td className='right'>+4&nbsp;</td>
+                                            <td className='right'>6</td>
+                                            <td>Streamlining Improvement</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>10th</td>
+                                            <td className='right'>+4&nbsp;</td>
+                                            <td className='right'>6</td>
+                                            <td>Concentrated Endurance</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>11th</td>
+                                            <td className='right'>+4&nbsp;</td>
+                                            <td className='right'>6</td>
+                                            <td>Bladesurge Improvement, Resilience Improvement</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>12th</td>
+                                            <td className='right'>+4&nbsp;</td>
+                                            <td className='right'>7</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>13th</td>
+                                            <td className='right'>+5&nbsp;</td>
+                                            <td className='right'>7</td>
+                                            <td>Arsenal Tactics Feature</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>14th</td>
+                                            <td className='right'>+5&nbsp;</td>
+                                            <td className='right'>7</td>
+                                            <td>Concentrated Endurance Improvement</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>15th</td>
+                                            <td className='right'>+5&nbsp;</td>
+                                            <td className='right'>8</td>
+                                            <td>Fighting Style, Resilience Improvement</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>16th</td>
+                                            <td className='right'>+5&nbsp;</td>
+                                            <td className='right'>8</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>17th</td>
+                                            <td className='right'>+6&nbsp;</td>
+                                            <td className='right'>8</td>
+                                            <td>Unrelenting Resolve</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>18th</td>
+                                            <td className='right'>+6&nbsp;</td>
+                                            <td className='right'>9</td>
+                                            <td>Concentrated Endurance Improvement</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>19th</td>
+                                            <td className='right'>+6&nbsp;</td>
+                                            <td className='right'>9</td>
+                                            <td>Ability Score Increase</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>20th</td>
+                                            <td className='right'>+6&nbsp;</td>
+                                            <td className='right'>10</td>
+                                            <td>Arsenal Mastery</td>
+                                        </tr>
+                                    </tbody>
+                                </Table>
+                                </p>
                             <h4>Hit Points</h4>
                             <p>
                                 <b>Hit Dice: </b> 1d8 per Arsenalist level <br></br>
@@ -26,7 +200,7 @@ const Arsenalist = () => {
                                 <b>Weapons: </b> Simple Weapons, Martial Weapons <br></br>
                                 <b>Tools: </b> Smith’s Tools <br></br>
                                 <b>Saving Throws: </b>Dexterity, Intelligence <br></br>
-                                <b>Skills: </b> Choose two from Athletics, Acrobatics, Stealth, Arcana, History, Religion, Insight, Perception
+                                <b>Skills: </b> Choose two from Acrobatics, Athletics, Stealth, Arcana, History, Religion, Insight, and Perception
                             </p>
                             
                                 <h4>Equipment</h4>

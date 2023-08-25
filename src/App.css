@@ -27,13 +27,13 @@
   margin-right: 20px;
 }
 
-.home-box {
+/* .home-box {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  /* background-color: white; */
-}
+  background-color: white;
+} */
 
 .card-box {
   padding-top: 1rem;
@@ -66,6 +66,12 @@
 
 .preview-card{
   margin-bottom: 30px;
+}
+
+.preview-img{
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 10%;
 }
 
 .entry {

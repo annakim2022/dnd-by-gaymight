@@ -18,6 +18,8 @@ import Races from './components/Homebrewed/Races/Races'
 import Classes from './components/Homebrewed/Classes/Classes'
 
 import Kaleido from './components/Homebrewed/Classes/Kaleido'
+import Arsenalist from './components/Homebrewed/Classes/Arsenalist'
+import Mahou from './components/Homebrewed/Classes/Mahou'
 
 import Animated from './components/Homebrewed/Races/Animated'
 
@@ -110,6 +112,8 @@ function App() {
 
           <Route exact path='/homebrewed-classes' element={<Classes/>}> </Route>
               <Route exact path='/kaleido' element={<Kaleido/>}> </Route>
+              <Route exact path='/arsenalist' element={<Arsenalist/>}> </Route>
+              <Route exact path='/mahou' element={<Mahou/>}> </Route>
         </Routes>
       </div>
     </Router>

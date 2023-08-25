@@ -233,6 +233,9 @@ const Kaleido = () => {
                                     </tbody>
                                 </Table>
                                 </p>
+
+
+
                                 <h4>Hit Points</h4>
                                 <p>
                                     <b>Hit Dice: </b> 1d6 per Kaleido level <br></br>

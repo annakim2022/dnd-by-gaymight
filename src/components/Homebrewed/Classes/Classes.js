@@ -7,6 +7,9 @@ import { Link } from "react-router-dom"
 
 import img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/placeholder-image.png';
 import kaleido from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kaleido.jpeg'
+import arsenal from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/arsenal.jpeg'
+import mahou from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/wish.svg'
+
 import './Classes.css';
 
 
@@ -18,19 +21,19 @@ const Classes = () => {
             <h1 className='title'>Classes</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
-                    {/* <Col>
+                    <Col>
                     <Card className='preview-card'>
                         <Card.Body as={Link} to={'/arsenalist'}>
-                            <Card.Img variant="top" src={img} />
+                            <Card.Img className='preview-img' variant="top" src={arsenal} />
                         </Card.Body>
                         <Card.Body>
                             <Card.Title>Arsenalist</Card.Title>
                             <Card.Text>
-                                CLICK IMAGE
+                                
                             </Card.Text>
                         </Card.Body>                              
                     </Card> 
-                </Col> 
+                </Col> {/* 
                 <Col>
                     <Card className='preview-card'>
                         <Card.Body as={Link} to={'/cultivator'}>
@@ -60,7 +63,7 @@ const Classes = () => {
                     <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/kaleido'}>
-                                <Card.Img variant="top" src={kaleido} />
+                                <Card.Img className='preview-img' variant="top" src={kaleido} />
                             </Card.Body>
                             <Card.Body>
                                 <Card.Title>Kaleido</Card.Title>
@@ -74,7 +77,7 @@ const Classes = () => {
                     <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/mahou'}>
-                                <Card.Img variant="top" src={img} />
+                                <Card.Img className='preview-img' variant="top" src={mahou} />
                             </Card.Body>
                             <Card.Body>
                                 <Card.Title>Mahou</Card.Title>
