@@ -6,12 +6,11 @@ import Row from "react-bootstrap/Row"
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 
-import anna from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kannabim-img.jpeg'
-import cal from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/cal-img.JPG'
-import sophie from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/sophie-img.jpg'
-import daniel from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/daniel-img.png'
-import yves from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/yves-img.png'
-import ella from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/ella-img.png'
+import anna from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/anna.jpg'
+import cal from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/cal.jpg'
+import daniel from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/daniel.jpg'
+import yves from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/yves.jpg'
+import ella from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/ella.jpg'
 
 import './PlayerBios.css';
 
@@ -19,7 +18,8 @@ function PlayerBios() {
 
     return (
         <div className='page'>
-            <h1 className='title'>PlayerBios</h1>
+            <div className='card-box'>
+            <h1 className='title'>Players</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
                     <Col>
@@ -119,30 +119,7 @@ function PlayerBios() {
                             </ListGroup>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card className='preview-card'>
-                            <Card.Body>
-                                <Card.Img className="sophie-pp" variant="top" src={sophie} />
-                            </Card.Body>
-                            <Card.Body className='blurb'>
-                                <Card.Title>Sophie (she/her)</Card.Title>
-                                <Card.Text className="entry">
-
-                                    <li>highest stat: CHA (persuasion)</li>
-                                    <li>lowest stat: WIS (insight)</li>
-
-                                </Card.Text>
-                            </Card.Body>
-                            <ListGroup>
-                                <ListGroupItem>
-                                    <Card.Link href="/valista">Valista</Card.Link>
-                                </ListGroupItem>
-                                <ListGroupItem>
-                                    <Card.Link href="/kizah">Ki'zah</Card.Link>
-                                </ListGroupItem>
-                            </ListGroup>
-                        </Card>
-                    </Col>
+                   
                     <Col>
                         <Card className='preview-card'>
                             <Card.Body>
@@ -166,6 +143,7 @@ function PlayerBios() {
                     </Col>
                 </Row>
             </Container>
+            </div>
         </div>
     )
 }

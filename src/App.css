@@ -16,7 +16,7 @@
 
 .title {
   margin-left: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-style: italic;
   text-decoration: underline;
 }
@@ -25,6 +25,28 @@
   margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.home-box {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  /* background-color: white; */
+}
+
+.card-box {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.outer-box{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1vw;
+  margin-bottom: 1rem;
 }
 
 .box {

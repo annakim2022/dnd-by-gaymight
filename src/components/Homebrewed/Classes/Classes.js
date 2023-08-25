@@ -8,12 +8,13 @@ import { Link } from "react-router-dom"
 import img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/placeholder-image.png';
 import kaleido from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kaleido.jpeg'
 import './Classes.css';
-import Kaleido from './Kaleido';
+
 
 const Classes = () => {
 
     return (
         <div className='page'>
+            <div className='card-box'>
             <h1 className='title'>Classes</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
@@ -98,7 +99,7 @@ const Classes = () => {
                     </Col>
                 </Row>
             </Container>
-
+            </div>
         </div>
     )
 

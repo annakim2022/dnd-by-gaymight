@@ -23,60 +23,64 @@ export const menuItems = [
      
     },
     {
-     title: "Campaigns",
-     submenu: [
-        {
-        title: "Yiu Lai",
-        submenu: [
-         {
-          title: "Session Summaries",
-          path: "session-summaries-yiu-lai",
-         },
-         {
-          title: "Random Lore",
-         },
-         {
-            title: "NPCs",
-           },
-        ],
-        },
-        {
-         title: "Aelith",
+      title: "Homebrewed",
+      submenu: [
+          {
+          title: "Races",
+          path: "homebrewed-races",
+          },
+          {
+           title: "Classes",
+           path: "homebrewed-classes",
+          },
+         ]
+     },
+    {
+
+      //CAMPAIGNS ----------------------------------------------------------------
+
+   //   title: "Campaigns",
+   //    submenu: [
+   //       {
+         title: "Characters",
             submenu: [
-             {
-              title: "Session Summaries",
-              path: "session-summaries-aelith",
-             },
-             {
-              title: "Random Lore",
-            //   submenu: [
-            //    {
-            //     title: "",
-            //    },
-            //    {
-            //     title: "",
-            //    },
-            //   ],
-             },
-             {
-                title: "NPCs",
+               {
+               title: "Session Summaries",
+               path: "session-summaries-yiu-lai",
+               },
+               {
+               title: "Random Lore",
+               },
+               {
+                  title: "NPCs",
                },
             ],
-        },
-       ]
-    },
-    {
-        title: "Homebrewed",
-        submenu: [
-            {
-            title: "Races",
-            path: "homebrewed-races",
-            },
-            {
-             title: "Classes",
-             path: "homebrewed-classes",
-            },
-           ]
-       }
+         },
+         {
+            title: "Campaigns",
+               submenu: [
+               {
+               title: "Session Summaries",
+               path: "session-summaries-aelith",
+               },
+               {
+               title: "Random Lore",
+               //   submenu: [
+               //    {
+               //     title: "",
+               //    },
+               //    {
+               //     title: "",
+               //    },
+               //   ],
+               },
+               {
+                  title: "NPCs",
+                  },
+               ],
+         // },
+         // ]
+    }
+    
 
    ];

@@ -26,13 +26,11 @@ import Malum from './components/CharacterSheets/AelithCharacters/Malum';
 import Shiver from './components/CharacterSheets/AelithCharacters/Shiver';
 import Naomi from './components/CharacterSheets/AelithCharacters/Naomi';
 import Yenna from './components/CharacterSheets/AelithCharacters/Yenna';
-import Valista from './components/CharacterSheets/AelithCharacters/Valista';
 
 
 import Rarri from './components/CharacterSheets/YiuLaiCharacters/Rarri';
 import Haze from './components/CharacterSheets/YiuLaiCharacters/Haze'
 import Kepple from './components/CharacterSheets/YiuLaiCharacters/Kepple'
-import Kizah from './components/CharacterSheets/YiuLaiCharacters/Kizah'
 import Ssashira from './components/CharacterSheets/YiuLaiCharacters/Ssashira'
 import Vdolfnir from './components/CharacterSheets/YiuLaiCharacters/Vdolfnir'
 
@@ -56,24 +54,31 @@ function App() {
                 Home
               </Nav.Link>  
               <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/player-bios"}>
-                Player Bios
-              </Nav.Link>      
-              <NavDropdown title="Yiu Lai">
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-character-sheets"}>Character Sheets</NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-session-summaries"}><s>Session Summaries</s></NavDropdown.Item>
-                {/* <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-NPCs"}><s>NPCs</s></NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-random-lore"}><s>Random Lore</s></NavDropdown.Item> */}
-              </NavDropdown>
-              <NavDropdown title="Aelith">
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-character-sheets"}>Character Sheets</NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-session-summaries"}><s>Session Summaries</s></NavDropdown.Item>
-                {/* <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-NPCs"}><s>NPCs</s></NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-random-lore"}><s>Random Lore</s></NavDropdown.Item>       */}
-              </NavDropdown>
+                Players
+              </Nav.Link>   
+              <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-character-sheets"}>
+                Characters
+              </Nav.Link>   
+              <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/aelith-character-sheets"}>
+                Campaigns
+              </Nav.Link> 
               <NavDropdown title="Homebrewed">
                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/homebrewed-races"}>Races</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/homebrewed-classes"}>Classes</NavDropdown.Item>    
+              </NavDropdown>   
+              {/* <NavDropdown title="Characters">
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-character-sheets"}>Character Sheets</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-session-summaries"}><s>Session Summaries</s></NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-NPCs"}><s>NPCs</s></NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/yiu-lai-random-lore"}><s>Random Lore</s></NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown title="Campaigns">
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-character-sheets"}>Character Sheets</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-session-summaries"}><s>Session Summaries</s></NavDropdown.Item>
+                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-NPCs"}><s>NPCs</s></NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to={"/aelith-random-lore"}><s>Random Lore</s></NavDropdown.Item>      
+              </NavDropdown> */}
+             
             </Nav>
           </Navbar.Collapse>
           </Container>
@@ -87,7 +92,6 @@ function App() {
           <Route exact path='/yiu-lai-character-sheets' element={<CharacterSheetsYiuLai/>}> </Route>
               <Route exact path='/haze' element={<Haze/>}> </Route>
               <Route exact path='/kepple' element={<Kepple/>}> </Route>
-              <Route exact path='/kizah' element={<Kizah/>}> </Route>
               <Route exact path='/rarri-pebblepocket' element={<Rarri/>}></Route>
               <Route exact path='/ssashira' element={<Ssashira/>}></Route>
               <Route exact path='/vdolfnir' element={<Vdolfnir/>}></Route>
@@ -97,7 +101,6 @@ function App() {
               <Route exact path='/malum' element={<Malum/>}> </Route>
               <Route exact path='/shiver' element={<Shiver/>}> </Route>
               <Route exact path='/naomi' element={<Naomi/>}> </Route>
-              <Route exact path='/valista' element={<Valista/>}> </Route>
               <Route exact path='/yenna' element={<Yenna/>}> </Route>
 
           <Route exact path='/yiu-lai-session-summaries' element={<SessionSummariesYiuLai/>}> </Route>

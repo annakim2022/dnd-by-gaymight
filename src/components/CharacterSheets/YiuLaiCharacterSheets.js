@@ -8,7 +8,6 @@ import './CharacterSheets.css';
 
 import rarri_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/rarri-img.jpeg';
 import kepple_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kepple-img.jpeg';
-import kizah_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/kizah-img.JPG'
 import haze_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/haze-img.jpg';
 import ssashira_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/ssashira-img.jpeg';
 import vdolfnir_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/vdolfnir-img.jpeg';
@@ -19,6 +18,7 @@ const CharacterSheetsYiuLai = () => {
 
     return (
         <div className='page'>
+            <div className='card-box'>
             <h1 className='title'>Yiu Lai Character Sheets</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
@@ -35,18 +35,7 @@ const CharacterSheetsYiuLai = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card className='preview-card'>
-                            <Card.Body as={Link} to={'/kizah'}>
-                                <Card.Img className='preview-img' variant="top" src={kizah_img} />
-                            </Card.Body>
-                            <Card.Body className='blurb'>
-                                <Card.Title>Ki'zah</Card.Title>
-                                <Card.Text className='entry'>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                   
                     <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/kepple'}>
@@ -104,7 +93,7 @@ const CharacterSheetsYiuLai = () => {
                 </Row>
             </Container>
         </div>
-
+        </div>
     )
 }
 

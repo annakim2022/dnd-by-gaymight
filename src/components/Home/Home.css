@@ -10,11 +10,15 @@
     font-size: large;
 }
 
-.carousel-box {
-    border-radius: 10px;
-    background-color:rgba(246, 241, 235, 0.788);
-    padding: 15px;
-    color: black;
+/* .carousel {
+height: 100px;
+} */
+
+.carousel-img {
+    height: 40rem;
+    /* margin-left: 25rem;
+    margin-right: 20rem;
+    margin-top: 5rem; */
 }
 
 @media (max-width: 480px) {

@@ -11,13 +11,13 @@ import malum_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/com
 import aravala_headshot from "/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/aravala_headshot.jpg"
 import naomi_headshot from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/naomi_headshot.jpg'
 import yenna_headshot from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/yenna_headshot.jpg'
-import valista_img from '/Users/annakim/Desktop/fullstack/dnd-by-gaymnight/src/components/assets/valista-img.jpg'
 
 
 const CharacterSheetsAelith = () => {
 
     return (
         <div className='page'>
+            <div className='card-box'>
             <h1 className='title'>Aelith Character Sheets</h1>
             <Container fluid>
                 <Row xs={1} sm={2} lg={3}>
@@ -78,20 +78,7 @@ const CharacterSheetsAelith = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card className='preview-card'>
-                            <Card.Body as={Link} to={'/valista'}>
-                                <Card.Img className='preview-img' variant="top" src={valista_img} />
-                            </Card.Body>
-                            <Card.Body className='blurb'>
-                                <Card.Title>Valista</Card.Title>
-                                <Card.Text className='entry'>
-                                A purple Tiefling clad in a hackneyed red coat stealthily pickpockets passersby until a stranger does the same to her: leaving something behind instead 
-                                of taking. After reading the first four words scrawled on a small note—books on controlling magic—a relieved smile comes to her face.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                   
                     <Col>
                         <Card className='preview-card'>
                             <Card.Body as={Link} to={'/yenna'}>
@@ -108,6 +95,7 @@ const CharacterSheetsAelith = () => {
                     </Col>
                 </Row>
             </Container>
+        </div>
         </div>
 
     )
